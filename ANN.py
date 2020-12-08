@@ -9,8 +9,8 @@ constants = {
     'features': 58,
     'labels': 2,
     'alpha': 0.001,
-    'epochs': 500000,
-    'bin_size': 1500,
+    'epochs': 150000,
+    'bin_size': 10000,
     'bins': None
 }
 
