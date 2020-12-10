@@ -8,9 +8,9 @@ tf.disable_v2_behavior()
 constants = {
     'features': 58,
     'labels': 2,
-    'alpha': 0.001,
-    'epochs': 150000,
-    'bin_size': 10000,
+    'alpha': 0.0001,
+    'epochs': 50000,
+    'bin_size': 150000,
     'bins': None
 }
 
@@ -115,7 +115,7 @@ def shuffle_df(raw_data):
 def get_shuffled_divided_data(features,labels):
     data_len = features.shape[0]
 
-    TRAIN_SIZE = int(data_len * 0.6)
+    TRAIN_SIZE = int(data_len * 0.7)
 
     train_df = features[:TRAIN_SIZE]
     train_labels = labels[:TRAIN_SIZE]
@@ -126,7 +126,7 @@ def get_shuffled_divided_data(features,labels):
     return train_df, train_labels, test_df, test_labels
 
 
-data_path = join('C:\\Users\\שני כהן\\Desktop\\למידה עמוקה\\למידה עמוקה פרויקט','Dataset .xlsx')
+data_path = join("/home/cyberlab/Desktop/Shani's_ML/Deeplearning-Endo",'Dataset .xlsx')
 dataset = pandas.read_excel(data_path)
 dataset = dataset[wanted_columns]
 
