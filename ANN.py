@@ -8,9 +8,9 @@ tf.disable_v2_behavior()
 constants = {
     'features': 58,
     'labels': 2,
-    'alpha': 0.0001,
+    'alpha': 0.001,
     'epochs': 50000,
-    'bin_size': 150000,
+    'bin_size': 400,
     'bins': None
 }
 
@@ -104,7 +104,7 @@ def print_stats(acc, cost_hist, training_end_time, training_start_time):
     print('\tAccuracy:\n'
           '\t\tFinal Accuracy: {} %\n'.format(acc)
           )
-
+    
 
 # shuffle data
 def shuffle_df(raw_data):
@@ -115,7 +115,7 @@ def shuffle_df(raw_data):
 def get_shuffled_divided_data(features,labels):
     data_len = features.shape[0]
 
-    TRAIN_SIZE = int(data_len * 0.7)
+    TRAIN_SIZE = int(data_len * 0.6)
 
     train_df = features[:TRAIN_SIZE]
     train_labels = labels[:TRAIN_SIZE]
@@ -155,7 +155,7 @@ optimizer = tf.train.GradientDescentOptimizer(learning_rate=constants['alpha']).
 init = tf.global_variables_initializer()
 
 # calculate bin size for training
-constants['bins'] = int(train_features.shape[0] / constants['bin_size'])
+constants['bins'] = int (train_features.shape[0]/constants['bin_size'])
 
 training_start_time = dt.now()
 
@@ -181,12 +181,11 @@ with tf.Session() as sess:
             sess.run(optimizer, feed_dict={X: x, Y: y})
             c = sess.run(cost, feed_dict={X: x, Y: y})
 
-        if (epoch % 500 is 0 and epoch is not 0) or (epoch is constants['epochs'] - 1):
-            pass
-            # cost_hist.append(c)
-            # print('\rEpoch: {} Cost: {}'.format(str(epoch), str(c)))
-            # print('\rW: {}, b: {}'.format(W.eval(sess), b.eval(sess)))
+            if (epoch % 500 == 0 and epoch != 0) or (epoch == constants['epochs'] - 1):
+                cost_hist.append(c)
+                print('\rEpoch: {} Cost: {}'.format(str(epoch), str(c)))
 
+            #numpy.save('FeaturesWeight.npy', W, allow_pickle=True, fix_imports=True)
     training_end_time = dt.now()
 
     # model testing
@@ -194,9 +193,9 @@ with tf.Session() as sess:
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     acc = accuracy.eval({X: test_features, Y: test_labels}) * 100
 
-    print_stats(acc, [1,2,3,4,5,6,7,8,9], training_end_time, training_start_time)
-    # print_stats(acc, cost_hist, training_end_time, training_start_time)
-
+    print('\rW: {}, b: {}\n'.format(W.eval(sess), b.eval(sess)))
+    print_stats(acc, cost_hist, training_end_time, training_start_time)
+   
     print('Confusion Matrix:')
 
     # confusion matrix
