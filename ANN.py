@@ -10,10 +10,10 @@ constants = {
     'labels': 2,
     'alpha': 0.001,
     'epochs': 50000,
-    'bin_size': 400,
+    'bin_size': 300,
     'bins': None
 }
-
+#Our beloved features
 wanted_columns= ['Heavy / Extreme menstrual bleeding',
                  'Menstrual pain (Dysmenorrhea)',
                  'Painful / Burning pain during sex (Dyspareunia)',
@@ -145,10 +145,11 @@ Y = tf.placeholder(tf.float32, [None, constants['labels']])
 W = tf.Variable(0.001 * np.random.randn(constants['features'], constants['labels']).astype(np.float32))
 b = tf.Variable(0.001 * np.random.randn(constants['labels']).astype(np.float32))
 
+#TODO Y_ = tf.nn.softmax_cross_entropy_with_logits_v2(tf.add(tf.matmul(X, W), b))
 
-hyp = tf.nn.softmax(tf.add(tf.matmul(X, W), b))
-
-cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(tf.clip_by_value(hyp, 1e-10, 1.0))))
+Y_ = tf.nn.softmax(tf.add(tf.matmul(X, W), b))
+#Loss and normalization
+cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(tf.clip_by_value(Y_, 1e-10, 1.0))))
 
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=constants['alpha']).minimize(cost)
 
@@ -189,7 +190,7 @@ with tf.Session() as sess:
     training_end_time = dt.now()
 
     # model testing
-    correct_prediction = tf.equal(tf.argmax(hyp, 1), tf.argmax(Y, 1))
+    correct_prediction = tf.equal(tf.argmax(Y_, 1), tf.argmax(Y, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     acc = accuracy.eval({X: test_features, Y: test_labels}) * 100
 
@@ -199,6 +200,6 @@ with tf.Session() as sess:
     print('Confusion Matrix:')
 
     # confusion matrix
-    conf_mat = tf.confusion_matrix(labels=tf.argmax(Y, 1), predictions=tf.argmax(hyp, 1), num_classes=2)
+    conf_mat = tf.confusion_matrix(labels=tf.argmax(Y, 1), predictions=tf.argmax(Y_, 1), num_classes=2)
     conf_mat_to_print = sess.run(conf_mat, feed_dict={X: test_features, Y: test_labels})
     print(conf_mat_to_print)
