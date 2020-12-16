@@ -36695,4 +36695,2497 @@ Confusion Matrix:
  [ 24 175]]
 2020-12-16 18:50:37.340357: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
 2020-12-16 18:50:37.340382: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a f
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:50:38.938637: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:50:38.938660: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:50:38.938674: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:50:38.938845: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:50:38.960358: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:50:38.960960: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4852880 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:50:38.960981: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 27.705818
+Epoch: 1000 Cost: 20.808868
+Epoch: 1500 Cost: 17.216614
+Epoch: 2000 Cost: 14.852726
+Epoch: 2500 Cost: 13.135183
+Epoch: 3000 Cost: 11.813991
+Epoch: 3500 Cost: 10.758125
+Epoch: 4000 Cost: 9.890581
+Epoch: 4500 Cost: 9.162537
+Epoch: 5000 Cost: 8.541276
+Epoch: 5500 Cost: 8.003907
+Epoch: 6000 Cost: 7.533834
+Epoch: 6500 Cost: 7.118709
+Epoch: 7000 Cost: 6.749104
+Epoch: 7500 Cost: 6.4176917
+Epoch: 8000 Cost: 6.1186647
+Epoch: 8500 Cost: 5.8473697
+Epoch: 9000 Cost: 5.600018
+Epoch: 9500 Cost: 5.3734956
+Epoch: 10000 Cost: 5.1652126
+Epoch: 10500 Cost: 4.9730015
+Epoch: 11000 Cost: 4.7950306
+Epoch: 11500 Cost: 4.6297398
+Epoch: 12000 Cost: 4.475792
+Epoch: 12500 Cost: 4.332038
+Epoch: 13000 Cost: 4.197473
+Epoch: 13500 Cost: 4.071229
+Epoch: 14000 Cost: 3.9525476
+Epoch: 14500 Cost: 3.8407495
+Epoch: 15000 Cost: 3.7352479
+Epoch: 15500 Cost: 3.6355143
+Epoch: 16000 Cost: 3.5410843
+Epoch: 16500 Cost: 3.4515362
+Epoch: 17000 Cost: 3.3664951
+Epoch: 17500 Cost: 3.285629
+Epoch: 18000 Cost: 3.2086272
+Epoch: 18500 Cost: 3.1352172
+Epoch: 19000 Cost: 3.0651512
+Epoch: 19500 Cost: 2.998202
+Epoch: 20000 Cost: 2.9341636
+Epoch: 20500 Cost: 2.8728497
+Epoch: 21000 Cost: 2.8140838
+Epoch: 21500 Cost: 2.757716
+Epoch: 22000 Cost: 2.7035942
+Epoch: 22500 Cost: 2.6515875
+Epoch: 23000 Cost: 2.6015725
+Epoch: 23500 Cost: 2.5534368
+Epoch: 24000 Cost: 2.5070715
+Epoch: 24500 Cost: 2.4623852
+Epoch: 25000 Cost: 2.4192863
+Epoch: 25500 Cost: 2.377689
+Epoch: 26000 Cost: 2.3375158
+Epoch: 26500 Cost: 2.298696
+Epoch: 27000 Cost: 2.26116
+Epoch: 27500 Cost: 2.2248445
+Epoch: 28000 Cost: 2.1896913
+Epoch: 28500 Cost: 2.15565
+Epoch: 29000 Cost: 2.1226552
+Epoch: 29500 Cost: 2.090668
+Epoch: 30000 Cost: 2.0596468
+Epoch: 30500 Cost: 2.0295324
+Epoch: 31000 Cost: 2.0003061
+Epoch: 31500 Cost: 1.9719133
+Epoch: 32000 Cost: 1.9443271
+Epoch: 32500 Cost: 1.9175032
+Epoch: 33000 Cost: 1.8914256
+Epoch: 33500 Cost: 1.8660483
+Epoch: 34000 Cost: 1.841352
+Epoch: 34500 Cost: 1.8173065
+Epoch: 35000 Cost: 1.7938867
+Epoch: 35500 Cost: 1.7710702
+Epoch: 36000 Cost: 1.7488338
+Epoch: 36500 Cost: 1.7271514
+Epoch: 37000 Cost: 1.7060065
+Epoch: 37500 Cost: 1.685379
+Epoch: 38000 Cost: 1.6652491
+Epoch: 38500 Cost: 1.6455965
+Epoch: 39000 Cost: 1.6264106
+Epoch: 39500 Cost: 1.6076674
+Epoch: 40000 Cost: 1.5893532
+Epoch: 40500 Cost: 1.5714504
+Epoch: 41000 Cost: 1.5539556
+Epoch: 41500 Cost: 1.5368549
+Epoch: 42000 Cost: 1.5201263
+Epoch: 42500 Cost: 1.5037532
+Epoch: 43000 Cost: 1.4877378
+Epoch: 43500 Cost: 1.4720691
+Epoch: 44000 Cost: 1.4567218
+Epoch: 44500 Cost: 1.4416943
+Epoch: 45000 Cost: 1.4269843
+Epoch: 45500 Cost: 1.4125645
+Epoch: 46000 Cost: 1.3984352
+Epoch: 46500 Cost: 1.3845935
+Epoch: 47000 Cost: 1.3710172
+Epoch: 47500 Cost: 1.3577139
+Epoch: 48000 Cost: 1.344672
+Epoch: 48500 Cost: 1.331871
+Epoch: 49000 Cost: 1.3193222
+Epoch: 49500 Cost: 1.3070062
+Epoch: 49999 Cost: 1.2949415
+W: [[ 1.6837134  -1.6833138 ]
+ [-2.8114057   2.811309  ]
+ [-4.07593     4.076876  ]
+ [-4.9265084   4.92494   ]
+ [-1.06569     1.0660601 ]
+ [-0.9106096   0.91393626]
+ [ 1.1017412  -1.1027073 ]
+ [ 0.9456141  -0.9477595 ]
+ [-4.1028314   4.1010933 ]
+ [-1.9740782   1.9754596 ]
+ [ 2.6353438  -2.6372728 ]
+ [-0.3752245   0.37391293]
+ [-0.7575975   0.7586291 ]
+ [-2.9277215   2.927523  ]
+ [-0.05610193  0.05386448]
+ [ 2.6974099  -2.7003255 ]
+ [-1.4578339   1.4581017 ]
+ [ 2.1825294  -2.1828043 ]
+ [-3.0927558   3.0962443 ]
+ [ 0.37212723 -0.37344104]
+ [ 0.5816635  -0.58139426]
+ [ 1.4053011  -1.406238  ]
+ [-3.062804    3.0620599 ]
+ [ 1.1363004  -1.136006  ]
+ [-5.124159    5.123293  ]
+ [-0.44166344  0.44098255]
+ [ 0.19970688 -0.19976984]
+ [-1.6224068   1.6206888 ]
+ [-2.1725416   2.1716895 ]
+ [-3.0351171   3.0348642 ]
+ [ 1.6577686  -1.6594979 ]
+ [-6.229974    6.2291207 ]
+ [-1.8923355   1.8925225 ]
+ [ 1.4558059  -1.4566529 ]
+ [ 5.238353   -5.2389016 ]
+ [-0.70855886  0.7086865 ]
+ [ 1.3025893  -1.3034204 ]
+ [-2.481852    2.485085  ]
+ [-0.21418577  0.21297163]
+ [ 1.3958422  -1.3964906 ]
+ [ 0.8749712  -0.8743978 ]
+ [ 1.4726226  -1.4738243 ]
+ [ 0.2560371  -0.25659838]
+ [ 2.0539556  -2.0546374 ]
+ [-0.51103336  0.5090998 ]
+ [-0.32360914  0.31969467]
+ [ 0.7406051  -0.74032176]
+ [-0.49209628  0.49122798]
+ [ 4.7789164  -4.778252  ]
+ [ 5.201668   -5.2015185 ]
+ [-3.6400867   3.6397498 ]
+ [-1.0899976   1.0899785 ]
+ [ 4.525613   -4.525569  ]
+ [ 1.5417874  -1.5416104 ]
+ [-0.37355638  0.37395573]
+ [ 0.05746801 -0.05977394]
+ [-2.075183    2.0746083 ]
+ [ 3.5596335  -3.5583875 ]], b: [ 6.6536813 -6.653921 ]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:20.428380
+
+	Costs:
+		First Recorded Cost : 27.70581817626953
+		Last Recorded Cost : 1.2949415445327759
+		Average Cost : 3.962397985458374
+		Lowest Recorded Cost : 1.2949415445327759
+		Highest Recorded Cost : 27.70581817626953
+
+	Accuracy:
+		Final Accuracy: 87.04225420951843 %
+
+Confusion Matrix:
+[[146  24]
+ [ 22 163]]
+2020-12-16 18:51:59.924861: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 18:51:59.924890: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:52:01.518116: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:52:01.518140: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:52:01.518153: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:52:01.518328: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:52:01.540364: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:52:01.540963: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3fc3c20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:52:01.540984: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 31.968014
+Epoch: 1000 Cost: 25.21849
+Epoch: 1500 Cost: 21.735926
+Epoch: 2000 Cost: 19.432096
+Epoch: 2500 Cost: 17.727106
+Epoch: 3000 Cost: 16.38305
+Epoch: 3500 Cost: 15.28001
+Epoch: 4000 Cost: 14.349221
+Epoch: 4500 Cost: 13.547633
+Epoch: 5000 Cost: 12.846495
+Epoch: 5500 Cost: 12.225655
+Epoch: 6000 Cost: 11.670434
+Epoch: 6500 Cost: 11.169796
+Epoch: 7000 Cost: 10.71524
+Epoch: 7500 Cost: 10.300072
+Epoch: 8000 Cost: 9.918924
+Epoch: 8500 Cost: 9.567436
+Epoch: 9000 Cost: 9.242003
+Epoch: 9500 Cost: 8.939623
+Epoch: 10000 Cost: 8.657764
+Epoch: 10500 Cost: 8.394272
+Epoch: 11000 Cost: 8.147298
+Epoch: 11500 Cost: 7.9152527
+Epoch: 12000 Cost: 7.6967487
+Epoch: 12500 Cost: 7.490571
+Epoch: 13000 Cost: 7.295662
+Epoch: 13500 Cost: 7.111076
+Epoch: 14000 Cost: 6.93598
+Epoch: 14500 Cost: 6.769629
+Epoch: 15000 Cost: 6.6113634
+Epoch: 15500 Cost: 6.4605846
+Epoch: 16000 Cost: 6.316749
+Epoch: 16500 Cost: 6.1793766
+Epoch: 17000 Cost: 6.048027
+Epoch: 17500 Cost: 5.9222975
+Epoch: 18000 Cost: 5.8018293
+Epoch: 18500 Cost: 5.6862826
+Epoch: 19000 Cost: 5.5753636
+Epoch: 19500 Cost: 5.4687834
+Epoch: 20000 Cost: 5.3662863
+Epoch: 20500 Cost: 5.267643
+Epoch: 21000 Cost: 5.1726284
+Epoch: 21500 Cost: 5.081047
+Epoch: 22000 Cost: 4.9927044
+Epoch: 22500 Cost: 4.9074373
+Epoch: 23000 Cost: 4.825077
+Epoch: 23500 Cost: 4.745478
+Epoch: 24000 Cost: 4.6685057
+Epoch: 24500 Cost: 4.594019
+Epoch: 25000 Cost: 4.521908
+Epoch: 25500 Cost: 4.452052
+Epoch: 26000 Cost: 4.3843465
+Epoch: 26500 Cost: 4.318694
+Epoch: 27000 Cost: 4.255001
+Epoch: 27500 Cost: 4.19318
+Epoch: 28000 Cost: 4.1331487
+Epoch: 28500 Cost: 4.0748196
+Epoch: 29000 Cost: 4.018139
+Epoch: 29500 Cost: 3.9630241
+Epoch: 30000 Cost: 3.9094074
+Epoch: 30500 Cost: 3.8572364
+Epoch: 31000 Cost: 3.8064523
+Epoch: 31500 Cost: 3.7569962
+Epoch: 32000 Cost: 3.7088165
+Epoch: 32500 Cost: 3.6618676
+Epoch: 33000 Cost: 3.6160967
+Epoch: 33500 Cost: 3.5714626
+Epoch: 34000 Cost: 3.5279248
+Epoch: 34500 Cost: 3.4854374
+Epoch: 35000 Cost: 3.4439695
+Epoch: 35500 Cost: 3.4034848
+Epoch: 36000 Cost: 3.3639417
+Epoch: 36500 Cost: 3.32531
+Epoch: 37000 Cost: 3.28756
+Epoch: 37500 Cost: 3.250657
+Epoch: 38000 Cost: 3.214576
+Epoch: 38500 Cost: 3.1792977
+Epoch: 39000 Cost: 3.1447797
+Epoch: 39500 Cost: 3.1110032
+Epoch: 40000 Cost: 3.077965
+Epoch: 40500 Cost: 3.0456161
+Epoch: 41000 Cost: 3.0139275
+Epoch: 41500 Cost: 2.982905
+Epoch: 42000 Cost: 2.9525232
+Epoch: 42500 Cost: 2.9227402
+Epoch: 43000 Cost: 2.8935657
+Epoch: 43500 Cost: 2.8649678
+Epoch: 44000 Cost: 2.8369079
+Epoch: 44500 Cost: 2.8094227
+Epoch: 45000 Cost: 2.78245
+Epoch: 45500 Cost: 2.755986
+Epoch: 46000 Cost: 2.7300472
+Epoch: 46500 Cost: 2.7045684
+Epoch: 47000 Cost: 2.6795762
+Epoch: 47500 Cost: 2.6550312
+Epoch: 48000 Cost: 2.6309447
+Epoch: 48500 Cost: 2.6072812
+Epoch: 49000 Cost: 2.5840447
+Epoch: 49500 Cost: 2.5612183
+Epoch: 49999 Cost: 2.5388303
+W: [[ 0.09547993 -0.09574114]
+ [-2.803042    2.8045242 ]
+ [-1.7266865   1.7239091 ]
+ [-0.45789847  0.45759162]
+ [-2.9318757   2.930873  ]
+ [-2.271435    2.2717173 ]
+ [-1.911767    1.910726  ]
+ [-1.0298419   1.031381  ]
+ [-0.1282921   0.12826467]
+ [ 0.4443737  -0.446033  ]
+ [-1.2677416   1.2706878 ]
+ [-2.0306857   2.0320966 ]
+ [-4.2861185   4.2841496 ]
+ [-3.9184525   3.9159899 ]
+ [ 1.034804   -1.0344532 ]
+ [ 2.386345   -2.3866143 ]
+ [-2.223647    2.2232833 ]
+ [-0.42153943  0.42169037]
+ [-6.114976    6.112703  ]
+ [ 5.033824   -5.032581  ]
+ [ 0.10160901 -0.10141841]
+ [-3.0631356   3.0626657 ]
+ [-3.6541464   3.6557484 ]
+ [ 0.70787466 -0.70806414]
+ [-1.1315192   1.1337299 ]
+ [ 3.18383    -3.1826289 ]
+ [ 0.32551795 -0.32447404]
+ [ 0.6754098  -0.67380375]
+ [-2.9319227   2.9322395 ]
+ [ 1.4672908  -1.4688835 ]
+ [ 1.6779492  -1.6792105 ]
+ [-4.604141    4.605613  ]
+ [ 0.4325414  -0.434515  ]
+ [ 2.1300454  -2.1305919 ]
+ [ 0.7469388  -0.74660033]
+ [-0.20146552  0.20427898]
+ [-1.3289603   1.3267422 ]
+ [-5.2721305   5.2720523 ]
+ [-0.38502398  0.38482282]
+ [ 2.5237033  -2.522665  ]
+ [-1.3691428   1.3703762 ]
+ [ 1.0334389  -1.0334166 ]
+ [-1.4585785   1.4601519 ]
+ [ 4.2157826  -4.2155414 ]
+ [-1.6911831   1.6929166 ]
+ [-2.4965029   2.4971762 ]
+ [-0.689676    0.68878037]
+ [ 3.5624623  -3.5633786 ]
+ [ 7.5096736  -7.5094867 ]
+ [ 4.511402   -4.511889  ]
+ [-1.1608795   1.1609457 ]
+ [-4.2097654   4.2100673 ]
+ [-0.675723    0.6758655 ]
+ [ 0.50933546 -0.50990945]
+ [-3.6463263   3.6449142 ]
+ [ 2.10899    -2.110426  ]
+ [ 4.408744   -4.4064245 ]
+ [ 2.5936518  -2.5928605 ]], b: [ 8.740383 -8.738802]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:20.049990
+
+	Costs:
+		First Recorded Cost : 31.968013763427734
+		Last Recorded Cost : 2.538830280303955
+		Average Cost : 6.389140717983246
+		Lowest Recorded Cost : 2.538830280303955
+		Highest Recorded Cost : 31.968013763427734
+
+	Accuracy:
+		Final Accuracy: 89.29577469825745 %
+
+Confusion Matrix:
+[[148  20]
+ [ 18 169]]
+2020-12-16 18:53:22.114031: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 18:53:22.114058: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:53:23.677052: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:53:23.677083: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:53:23.677098: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:53:23.677273: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:53:23.700327: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:53:23.701025: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x597b590 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:53:23.701046: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 36.439148
+Epoch: 1000 Cost: 30.717482
+Epoch: 1500 Cost: 27.888393
+Epoch: 2000 Cost: 26.089169
+Epoch: 2500 Cost: 24.796288
+Epoch: 3000 Cost: 23.796738
+Epoch: 3500 Cost: 22.985756
+Epoch: 4000 Cost: 22.305119
+Epoch: 4500 Cost: 21.719515
+Epoch: 5000 Cost: 21.206036
+Epoch: 5500 Cost: 20.749023
+Epoch: 6000 Cost: 20.337315
+Epoch: 6500 Cost: 19.962673
+Epoch: 7000 Cost: 19.618872
+Epoch: 7500 Cost: 19.301067
+Epoch: 8000 Cost: 19.005468
+Epoch: 8500 Cost: 18.729027
+Epoch: 9000 Cost: 18.469282
+Epoch: 9500 Cost: 18.224205
+Epoch: 10000 Cost: 17.992126
+Epoch: 10500 Cost: 17.771652
+Epoch: 11000 Cost: 17.561596
+Epoch: 11500 Cost: 17.36095
+Epoch: 12000 Cost: 17.168867
+Epoch: 12500 Cost: 16.984592
+Epoch: 13000 Cost: 16.807484
+Epoch: 13500 Cost: 16.636974
+Epoch: 14000 Cost: 16.472567
+Epoch: 14500 Cost: 16.313822
+Epoch: 15000 Cost: 16.160347
+Epoch: 15500 Cost: 16.011795
+Epoch: 16000 Cost: 15.867848
+Epoch: 16500 Cost: 15.728229
+Epoch: 17000 Cost: 15.592676
+Epoch: 17500 Cost: 15.460962
+Epoch: 18000 Cost: 15.332876
+Epoch: 18500 Cost: 15.20821
+Epoch: 19000 Cost: 15.0868
+Epoch: 19500 Cost: 14.968481
+Epoch: 20000 Cost: 14.853099
+Epoch: 20500 Cost: 14.740513
+Epoch: 21000 Cost: 14.630592
+Epoch: 21500 Cost: 14.523224
+Epoch: 22000 Cost: 14.418293
+Epoch: 22500 Cost: 14.315697
+Epoch: 23000 Cost: 14.215338
+Epoch: 23500 Cost: 14.117113
+Epoch: 24000 Cost: 14.02096
+Epoch: 24500 Cost: 13.926778
+Epoch: 25000 Cost: 13.834503
+Epoch: 25500 Cost: 13.744055
+Epoch: 26000 Cost: 13.655372
+Epoch: 26500 Cost: 13.568395
+Epoch: 27000 Cost: 13.4830475
+Epoch: 27500 Cost: 13.399295
+Epoch: 28000 Cost: 13.317072
+Epoch: 28500 Cost: 13.236328
+Epoch: 29000 Cost: 13.157017
+Epoch: 29500 Cost: 13.079092
+Epoch: 30000 Cost: 13.0025015
+Epoch: 30500 Cost: 12.9272
+Epoch: 31000 Cost: 12.853175
+Epoch: 31500 Cost: 12.780372
+Epoch: 32000 Cost: 12.70874
+Epoch: 32500 Cost: 12.638261
+Epoch: 33000 Cost: 12.568904
+Epoch: 33500 Cost: 12.50062
+Epoch: 34000 Cost: 12.4334
+Epoch: 34500 Cost: 12.367193
+Epoch: 35000 Cost: 12.301987
+Epoch: 35500 Cost: 12.237745
+Epoch: 36000 Cost: 12.174456
+Epoch: 36500 Cost: 12.112084
+Epoch: 37000 Cost: 12.050606
+Epoch: 37500 Cost: 11.989998
+Epoch: 38000 Cost: 11.930233
+Epoch: 38500 Cost: 11.871288
+Epoch: 39000 Cost: 11.813165
+Epoch: 39500 Cost: 11.755827
+Epoch: 40000 Cost: 11.699248
+Epoch: 40500 Cost: 11.643422
+Epoch: 41000 Cost: 11.588331
+Epoch: 41500 Cost: 11.533938
+Epoch: 42000 Cost: 11.480251
+Epoch: 42500 Cost: 11.427255
+Epoch: 43000 Cost: 11.374926
+Epoch: 43500 Cost: 11.323219
+Epoch: 44000 Cost: 11.272169
+Epoch: 44500 Cost: 11.221724
+Epoch: 45000 Cost: 11.17189
+Epoch: 45500 Cost: 11.122663
+Epoch: 46000 Cost: 11.074013
+Epoch: 46500 Cost: 11.025925
+Epoch: 47000 Cost: 10.978382
+Epoch: 47500 Cost: 10.931417
+Epoch: 48000 Cost: 10.884947
+Epoch: 48500 Cost: 10.839029
+Epoch: 49000 Cost: 10.793616
+Epoch: 49500 Cost: 10.748701
+Epoch: 49999 Cost: 10.7043705
+W: [[ 2.196187   -2.197051  ]
+ [-2.3054225   2.3058572 ]
+ [-2.3818185   2.3820798 ]
+ [-4.517876    4.518878  ]
+ [-0.69861186  0.6980239 ]
+ [ 2.2714298  -2.271662  ]
+ [-0.12189838  0.12140886]
+ [-2.1017306   2.1028354 ]
+ [-1.3137246   1.3120184 ]
+ [ 0.3854867  -0.38711926]
+ [-2.996907    2.9966483 ]
+ [ 0.18178096 -0.18300253]
+ [-1.8016236   1.8013146 ]
+ [-1.5598677   1.557731  ]
+ [-0.04001387  0.03919911]
+ [ 0.8174008  -0.81984216]
+ [-3.6846802   3.684281  ]
+ [-0.03029149  0.03045278]
+ [-4.0850787   4.085037  ]
+ [-0.42413074  0.42522645]
+ [-1.4627924   1.4609689 ]
+ [ 0.73171246 -0.72882473]
+ [-4.1501284   4.14781   ]
+ [ 2.4023468  -2.4021966 ]
+ [-2.3276043   2.3259284 ]
+ [ 0.01726465 -0.01858711]
+ [ 0.41681167 -0.41696948]
+ [ 1.8504951  -1.8489746 ]
+ [-6.588484    6.5891814 ]
+ [ 0.7633055  -0.76251847]
+ [ 3.390995   -3.3913577 ]
+ [ 0.49360567 -0.4949848 ]
+ [-1.0471187   1.0499152 ]
+ [ 4.725276   -4.7252884 ]
+ [ 3.0661151  -3.065264  ]
+ [ 1.8342057  -1.8340845 ]
+ [ 0.1963084  -0.19456215]
+ [-5.515661    5.516713  ]
+ [ 1.4686047  -1.4680511 ]
+ [ 2.700434   -2.6985338 ]
+ [-1.6632977   1.663375  ]
+ [ 2.7944314  -2.7946053 ]
+ [-0.09500334  0.09174759]
+ [ 3.253098   -3.2532065 ]
+ [-3.0161984   3.0182192 ]
+ [-4.116397    4.1169176 ]
+ [ 2.678764   -2.6797297 ]
+ [ 2.496002   -2.496329  ]
+ [ 7.12229    -7.120975  ]
+ [ 3.68514    -3.6845095 ]
+ [-2.3695846   2.3701606 ]
+ [-3.4602559   3.4598858 ]
+ [ 3.6261697  -3.6272714 ]
+ [-2.6596072   2.6610842 ]
+ [-3.565093    3.565844  ]
+ [-3.466988    3.4654834 ]
+ [ 2.6727126  -2.6724777 ]
+ [ 1.937121   -1.9376663 ]], b: [ 6.5751085 -6.5732813]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:19.297617
+
+	Costs:
+		First Recorded Cost : 36.43914794921875
+		Last Recorded Cost : 10.704370498657227
+		Average Cost : 15.189224042892455
+		Lowest Recorded Cost : 10.704370498657227
+		Highest Recorded Cost : 36.43914794921875
+
+	Accuracy:
+		Final Accuracy: 87.60563135147095 %
+
+Confusion Matrix:
+[[135  23]
+ [ 21 176]]
+2020-12-16 18:54:43.538197: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 18:54:43.538224: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:54:45.102876: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:54:45.102898: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:54:45.102911: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:54:45.103073: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:54:45.128328: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:54:45.128978: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x54cb4d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:54:45.128998: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 26.5544
+Epoch: 1000 Cost: 21.279545
+Epoch: 1500 Cost: 18.704643
+Epoch: 2000 Cost: 17.006565
+Epoch: 2500 Cost: 15.739604
+Epoch: 3000 Cost: 14.731928
+Epoch: 3500 Cost: 13.89904
+Epoch: 4000 Cost: 13.192619
+Epoch: 4500 Cost: 12.582111
+Epoch: 5000 Cost: 12.046818
+Epoch: 5500 Cost: 11.571973
+Epoch: 6000 Cost: 11.146652
+Epoch: 6500 Cost: 10.762533
+Epoch: 7000 Cost: 10.4131365
+Epoch: 7500 Cost: 10.09332
+Epoch: 8000 Cost: 9.798952
+Epoch: 8500 Cost: 9.526664
+Epoch: 9000 Cost: 9.27368
+Epoch: 9500 Cost: 9.037699
+Epoch: 10000 Cost: 8.81679
+Epoch: 10500 Cost: 8.609312
+Epoch: 11000 Cost: 8.413889
+Epoch: 11500 Cost: 8.229326
+Epoch: 12000 Cost: 8.05459
+Epoch: 12500 Cost: 7.888796
+Epoch: 13000 Cost: 7.731164
+Epoch: 13500 Cost: 7.5810122
+Epoch: 14000 Cost: 7.4377327
+Epoch: 14500 Cost: 7.3007965
+Epoch: 15000 Cost: 7.1697316
+Epoch: 15500 Cost: 7.0441093
+Epoch: 16000 Cost: 6.9235487
+Epoch: 16500 Cost: 6.8077135
+Epoch: 17000 Cost: 6.696287
+Epoch: 17500 Cost: 6.588991
+Epoch: 18000 Cost: 6.485574
+Epoch: 18500 Cost: 6.385796
+Epoch: 19000 Cost: 6.2894483
+Epoch: 19500 Cost: 6.1963387
+Epoch: 20000 Cost: 6.106284
+Epoch: 20500 Cost: 6.0191197
+Epoch: 21000 Cost: 5.9346933
+Epoch: 21500 Cost: 5.852867
+Epoch: 22000 Cost: 5.7735085
+Epoch: 22500 Cost: 5.696493
+Epoch: 23000 Cost: 5.6217146
+Epoch: 23500 Cost: 5.54906
+Epoch: 24000 Cost: 5.478433
+Epoch: 24500 Cost: 5.409745
+Epoch: 25000 Cost: 5.3429127
+Epoch: 25500 Cost: 5.2778482
+Epoch: 26000 Cost: 5.2144804
+Epoch: 26500 Cost: 5.152734
+Epoch: 27000 Cost: 5.092548
+Epoch: 27500 Cost: 5.0338526
+Epoch: 28000 Cost: 4.9766035
+Epoch: 28500 Cost: 4.920721
+Epoch: 29000 Cost: 4.866171
+Epoch: 29500 Cost: 4.8128943
+Epoch: 30000 Cost: 4.7608395
+Epoch: 30500 Cost: 4.709973
+Epoch: 31000 Cost: 4.660246
+Epoch: 31500 Cost: 4.61162
+Epoch: 32000 Cost: 4.5640473
+Epoch: 32500 Cost: 4.5174985
+Epoch: 33000 Cost: 4.471944
+Epoch: 33500 Cost: 4.427349
+Epoch: 34000 Cost: 4.3836737
+Epoch: 34500 Cost: 4.340885
+Epoch: 35000 Cost: 4.2989693
+Epoch: 35500 Cost: 4.2578855
+Epoch: 36000 Cost: 4.217619
+Epoch: 36500 Cost: 4.1781335
+Epoch: 37000 Cost: 4.139407
+Epoch: 37500 Cost: 4.101417
+Epoch: 38000 Cost: 4.06415
+Epoch: 38500 Cost: 4.0275784
+Epoch: 39000 Cost: 3.9916735
+Epoch: 39500 Cost: 3.9564195
+Epoch: 40000 Cost: 3.9218068
+Epoch: 40500 Cost: 3.8878176
+Epoch: 41000 Cost: 3.854423
+Epoch: 41500 Cost: 3.8216205
+Epoch: 42000 Cost: 3.7893834
+Epoch: 42500 Cost: 3.75769
+Epoch: 43000 Cost: 3.7265408
+Epoch: 43500 Cost: 3.6959162
+Epoch: 44000 Cost: 3.665802
+Epoch: 44500 Cost: 3.636179
+Epoch: 45000 Cost: 3.6070485
+Epoch: 45500 Cost: 3.5783796
+Epoch: 46000 Cost: 3.550179
+Epoch: 46500 Cost: 3.522428
+Epoch: 47000 Cost: 3.4951022
+Epoch: 47500 Cost: 3.4682202
+Epoch: 48000 Cost: 3.441741
+Epoch: 48500 Cost: 3.4156764
+Epoch: 49000 Cost: 3.389998
+Epoch: 49500 Cost: 3.3647203
+Epoch: 49999 Cost: 3.339861
+W: [[-2.0265758   2.0249677 ]
+ [-0.10331839  0.10188521]
+ [-3.3369572   3.3396213 ]
+ [ 0.5206417  -0.52040344]
+ [-3.891611    3.892143  ]
+ [-0.80658984  0.8082678 ]
+ [-3.3533318   3.3512447 ]
+ [-1.3535422   1.353826  ]
+ [-2.604486    2.605724  ]
+ [-0.66932213  0.66773903]
+ [-0.57390386  0.5749378 ]
+ [-0.9021375   0.90162766]
+ [-0.5032065   0.50168324]
+ [-0.22474967  0.22134186]
+ [-3.0179052   3.0186286 ]
+ [ 4.732109   -4.7339215 ]
+ [ 1.2044632  -1.2028382 ]
+ [-5.4952445   5.4940405 ]
+ [-1.1547618   1.1520023 ]
+ [ 0.39369524 -0.3931412 ]
+ [-0.26724744  0.26610667]
+ [ 0.77376956 -0.77413124]
+ [-2.3179176   2.3175704 ]
+ [-0.9263737   0.9276083 ]
+ [-0.14968437  0.14931537]
+ [ 1.5082033  -1.509172  ]
+ [-2.13587     2.134551  ]
+ [ 2.294878   -2.2946615 ]
+ [-1.4614849   1.4594923 ]
+ [ 0.8635     -0.86444956]
+ [ 2.2227144  -2.2231958 ]
+ [-5.1955547   5.1973653 ]
+ [-0.06232797  0.06286863]
+ [ 1.0061867  -1.0063418 ]
+ [ 3.570757   -3.56861   ]
+ [ 1.3882676  -1.3892441 ]
+ [ 1.3101252  -1.309805  ]
+ [-2.3062124   2.3090286 ]
+ [-2.2221594   2.2235038 ]
+ [-3.433952    3.4337208 ]
+ [-1.9423524   1.9414152 ]
+ [ 2.5909622  -2.5913508 ]
+ [-1.9212244   1.919933  ]
+ [ 3.9048905  -3.9050386 ]
+ [-0.44884172  0.4473607 ]
+ [-4.2991056   4.3022585 ]
+ [ 6.056315   -6.055607  ]
+ [ 5.050556   -5.0508704 ]
+ [ 0.20585497 -0.20436002]
+ [ 5.1777086  -5.178542  ]
+ [-2.7797618   2.7816117 ]
+ [-3.3567302   3.3575475 ]
+ [ 2.334869   -2.3352668 ]
+ [-1.2259412   1.2251447 ]
+ [-1.4952846   1.4932752 ]
+ [ 1.4098507  -1.4099733 ]
+ [-2.6220818   2.6197174 ]
+ [ 0.74656665 -0.74695086]], b: [ 6.4230003 -6.4242663]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:19.448046
+
+	Costs:
+		First Recorded Cost : 26.554399490356445
+		Last Recorded Cost : 3.3398609161376953
+		Average Cost : 6.747573747634887
+		Lowest Recorded Cost : 3.3398609161376953
+		Highest Recorded Cost : 26.554399490356445
+
+	Accuracy:
+		Final Accuracy: 87.32394576072693 %
+
+Confusion Matrix:
+[[135  24]
+ [ 21 175]]
+2020-12-16 18:56:05.092674: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 18:56:05.092704: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:56:06.633208: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:56:06.633230: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:56:06.633248: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:56:06.633426: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:56:06.656377: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:56:06.657044: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4dd0a80 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:56:06.657071: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 28.552225
+Epoch: 1000 Cost: 22.281433
+Epoch: 1500 Cost: 19.27744
+Epoch: 2000 Cost: 17.38412
+Epoch: 2500 Cost: 16.022268
+Epoch: 3000 Cost: 14.963513
+Epoch: 3500 Cost: 14.09769
+Epoch: 4000 Cost: 13.364412
+Epoch: 4500 Cost: 12.727529
+Epoch: 5000 Cost: 12.163935
+Epoch: 5500 Cost: 11.658124
+Epoch: 6000 Cost: 11.199262
+Epoch: 6500 Cost: 10.779514
+Epoch: 7000 Cost: 10.39304
+Epoch: 7500 Cost: 10.035342
+Epoch: 8000 Cost: 9.702877
+Epoch: 8500 Cost: 9.392757
+Epoch: 9000 Cost: 9.102603
+Epoch: 9500 Cost: 8.830397
+Epoch: 10000 Cost: 8.574415
+Epoch: 10500 Cost: 8.333164
+Epoch: 11000 Cost: 8.105345
+Epoch: 11500 Cost: 7.889811
+Epoch: 12000 Cost: 7.685554
+Epoch: 12500 Cost: 7.49167
+Epoch: 13000 Cost: 7.3073683
+Epoch: 13500 Cost: 7.1319275
+Epoch: 14000 Cost: 6.9647064
+Epoch: 14500 Cost: 6.8051248
+Epoch: 15000 Cost: 6.652656
+Epoch: 15500 Cost: 6.506828
+Epoch: 16000 Cost: 6.367205
+Epoch: 16500 Cost: 6.2333937
+Epoch: 17000 Cost: 6.105034
+Epoch: 17500 Cost: 5.9817924
+Epoch: 18000 Cost: 5.8633685
+Epoch: 18500 Cost: 5.7494783
+Epoch: 19000 Cost: 5.6398706
+Epoch: 19500 Cost: 5.534302
+Epoch: 20000 Cost: 5.432554
+Epoch: 20500 Cost: 5.334422
+Epoch: 21000 Cost: 5.239715
+Epoch: 21500 Cost: 5.1482496
+Epoch: 22000 Cost: 5.05987
+Epoch: 22500 Cost: 4.9744244
+Epoch: 23000 Cost: 4.891762
+Epoch: 23500 Cost: 4.811751
+Epoch: 24000 Cost: 4.734266
+Epoch: 24500 Cost: 4.6591926
+Epoch: 25000 Cost: 4.5864153
+Epoch: 25500 Cost: 4.515835
+Epoch: 26000 Cost: 4.4473505
+Epoch: 26500 Cost: 4.380871
+Epoch: 27000 Cost: 4.316312
+Epoch: 27500 Cost: 4.253585
+Epoch: 28000 Cost: 4.1926208
+Epoch: 28500 Cost: 4.1333427
+Epoch: 29000 Cost: 4.0756903
+Epoch: 29500 Cost: 4.019584
+Epoch: 30000 Cost: 3.9649746
+Epoch: 30500 Cost: 3.911797
+Epoch: 31000 Cost: 3.8599963
+Epoch: 31500 Cost: 3.8095164
+Epoch: 32000 Cost: 3.7603183
+Epoch: 32500 Cost: 3.7123497
+Epoch: 33000 Cost: 3.6655602
+Epoch: 33500 Cost: 3.619916
+Epoch: 34000 Cost: 3.5753593
+Epoch: 34500 Cost: 3.5318785
+Epoch: 35000 Cost: 3.4894114
+Epoch: 35500 Cost: 3.4479327
+Epoch: 36000 Cost: 3.4074073
+Epoch: 36500 Cost: 3.367803
+Epoch: 37000 Cost: 3.3290997
+Epoch: 37500 Cost: 3.2912498
+Epoch: 38000 Cost: 3.25423
+Epoch: 38500 Cost: 3.2180178
+Epoch: 39000 Cost: 3.1825845
+Epoch: 39500 Cost: 3.1479104
+Epoch: 40000 Cost: 3.1139684
+Epoch: 40500 Cost: 3.0807297
+Epoch: 41000 Cost: 3.0481837
+Epoch: 41500 Cost: 3.0163045
+Epoch: 42000 Cost: 2.9850688
+Epoch: 42500 Cost: 2.9544625
+Epoch: 43000 Cost: 2.924468
+Epoch: 43500 Cost: 2.8950582
+Epoch: 44000 Cost: 2.8662224
+Epoch: 44500 Cost: 2.8379464
+Epoch: 45000 Cost: 2.8102074
+Epoch: 45500 Cost: 2.783001
+Epoch: 46000 Cost: 2.7562997
+Epoch: 46500 Cost: 2.7301016
+Epoch: 47000 Cost: 2.7043889
+Epoch: 47500 Cost: 2.6791344
+Epoch: 48000 Cost: 2.6543536
+Epoch: 48500 Cost: 2.6300092
+Epoch: 49000 Cost: 2.6060977
+Epoch: 49500 Cost: 2.582615
+Epoch: 49999 Cost: 2.5595803
+W: [[-2.7381375   2.736456  ]
+ [-4.3338013   4.33098   ]
+ [-1.0671237   1.0690053 ]
+ [-3.1509743   3.1490047 ]
+ [-0.6311716   0.6320207 ]
+ [ 1.1517872  -1.1502888 ]
+ [-2.3769462   2.3790271 ]
+ [-0.8075085   0.8098882 ]
+ [-3.7476327   3.7482324 ]
+ [-1.2465616   1.244398  ]
+ [-3.5288956   3.530897  ]
+ [ 1.3073221  -1.3082721 ]
+ [-1.3285273   1.3290619 ]
+ [-1.75522     1.7540653 ]
+ [ 0.07003706 -0.06980985]
+ [ 2.3918397  -2.3900864 ]
+ [-3.946405    3.9465592 ]
+ [-2.9970179   2.998764  ]
+ [-2.9503486   2.952851  ]
+ [ 4.5571017  -4.5566945 ]
+ [-2.8024437   2.801539  ]
+ [ 0.9175817  -0.91945666]
+ [ 2.6145823  -2.614993  ]
+ [ 2.6182075  -2.6180413 ]
+ [-0.9857723   0.98479545]
+ [ 3.5027492  -3.5051227 ]
+ [ 3.2646813  -3.2643747 ]
+ [-1.4568071   1.4582484 ]
+ [-3.0318224   3.0319855 ]
+ [-2.58674     2.5889606 ]
+ [ 1.4154721  -1.4129179 ]
+ [-5.4103804   5.411046  ]
+ [ 1.5942662  -1.5967268 ]
+ [ 0.3681254  -0.36981624]
+ [ 2.458766   -2.4568448 ]
+ [ 0.6280845  -0.6268577 ]
+ [ 3.550832   -3.552312  ]
+ [-5.8508234   5.85113   ]
+ [-0.3581274   0.3564327 ]
+ [ 2.2284355  -2.2294145 ]
+ [-1.7264596   1.7290559 ]
+ [ 1.7819194  -1.782949  ]
+ [-0.9267946   0.9283886 ]
+ [ 3.3508997  -3.3527825 ]
+ [ 1.4281001  -1.426884  ]
+ [-1.6780449   1.6767697 ]
+ [-2.3969018   2.396397  ]
+ [ 5.4434013  -5.442668  ]
+ [ 4.8670897  -4.867568  ]
+ [ 1.3285638  -1.3304403 ]
+ [-0.67999995  0.67951953]
+ [-3.274556    3.275954  ]
+ [ 4.161917   -4.1640153 ]
+ [-0.57461977  0.5757984 ]
+ [-1.7821399   1.7830598 ]
+ [-0.28578213  0.28425387]
+ [ 1.2694157  -1.2701664 ]
+ [ 4.493862   -4.4918046 ]], b: [ 5.4135184 -5.414184 ]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:19.659294
+
+	Costs:
+		First Recorded Cost : 28.55222511291504
+		Last Recorded Cost : 2.5595803260803223
+		Average Cost : 6.218248221874237
+		Lowest Recorded Cost : 2.5595803260803223
+		Highest Recorded Cost : 28.55222511291504
+
+	Accuracy:
+		Final Accuracy: 87.32394576072693 %
+
+Confusion Matrix:
+[[149  30]
+ [ 15 161]]
+2020-12-16 18:57:26.843796: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 18:57:26.843825: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:57:28.391475: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:57:28.391509: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:57:28.391533: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:57:28.391703: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:57:28.420445: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:57:28.421181: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4d7cb00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:57:28.421206: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 32.465378
+Epoch: 1000 Cost: 26.734886
+Epoch: 1500 Cost: 23.958801
+Epoch: 2000 Cost: 22.21197
+Epoch: 2500 Cost: 20.961239
+Epoch: 3000 Cost: 19.995304
+Epoch: 3500 Cost: 19.211952
+Epoch: 4000 Cost: 18.55477
+Epoch: 4500 Cost: 17.989574
+Epoch: 5000 Cost: 17.494186
+Epoch: 5500 Cost: 17.05345
+Epoch: 6000 Cost: 16.65657
+Epoch: 6500 Cost: 16.295609
+Epoch: 7000 Cost: 15.964561
+Epoch: 7500 Cost: 15.658787
+Epoch: 8000 Cost: 15.374626
+Epoch: 8500 Cost: 15.109137
+Epoch: 9000 Cost: 14.859929
+Epoch: 9500 Cost: 14.6250305
+Epoch: 10000 Cost: 14.4028015
+Epoch: 10500 Cost: 14.19186
+Epoch: 11000 Cost: 13.991036
+Epoch: 11500 Cost: 13.799323
+Epoch: 12000 Cost: 13.615862
+Epoch: 12500 Cost: 13.439907
+Epoch: 13000 Cost: 13.270807
+Epoch: 13500 Cost: 13.107999
+Epoch: 14000 Cost: 12.950981
+Epoch: 14500 Cost: 12.799318
+Epoch: 15000 Cost: 12.652618
+Epoch: 15500 Cost: 12.5105295
+Epoch: 16000 Cost: 12.372751
+Epoch: 16500 Cost: 12.239
+Epoch: 17000 Cost: 12.109032
+Epoch: 17500 Cost: 11.982612
+Epoch: 18000 Cost: 11.859552
+Epoch: 18500 Cost: 11.73965
+Epoch: 19000 Cost: 11.622753
+Epoch: 19500 Cost: 11.508692
+Epoch: 20000 Cost: 11.397341
+Epoch: 20500 Cost: 11.288558
+Epoch: 21000 Cost: 11.18223
+Epoch: 21500 Cost: 11.078242
+Epoch: 22000 Cost: 10.976492
+Epoch: 22500 Cost: 10.876886
+Epoch: 23000 Cost: 10.779343
+Epoch: 23500 Cost: 10.683776
+Epoch: 24000 Cost: 10.590102
+Epoch: 24500 Cost: 10.498259
+Epoch: 25000 Cost: 10.408171
+Epoch: 25500 Cost: 10.31978
+Epoch: 26000 Cost: 10.233023
+Epoch: 26500 Cost: 10.147847
+Epoch: 27000 Cost: 10.064196
+Epoch: 27500 Cost: 9.982025
+Epoch: 28000 Cost: 9.901279
+Epoch: 28500 Cost: 9.82192
+Epoch: 29000 Cost: 9.743906
+Epoch: 29500 Cost: 9.667183
+Epoch: 30000 Cost: 9.591733
+Epoch: 30500 Cost: 9.517504
+Epoch: 31000 Cost: 9.444467
+Epoch: 31500 Cost: 9.372584
+Epoch: 32000 Cost: 9.301823
+Epoch: 32500 Cost: 9.232166
+Epoch: 33000 Cost: 9.163579
+Epoch: 33500 Cost: 9.096022
+Epoch: 34000 Cost: 9.029475
+Epoch: 34500 Cost: 8.963911
+Epoch: 35000 Cost: 8.899302
+Epoch: 35500 Cost: 8.83564
+Epoch: 36000 Cost: 8.772886
+Epoch: 36500 Cost: 8.711025
+Epoch: 37000 Cost: 8.650031
+Epoch: 37500 Cost: 8.589896
+Epoch: 38000 Cost: 8.53059
+Epoch: 38500 Cost: 8.472081
+Epoch: 39000 Cost: 8.414375
+Epoch: 39500 Cost: 8.357444
+Epoch: 40000 Cost: 8.301274
+Epoch: 40500 Cost: 8.245838
+Epoch: 41000 Cost: 8.19113
+Epoch: 41500 Cost: 8.137146
+Epoch: 42000 Cost: 8.08384
+Epoch: 42500 Cost: 8.031236
+Epoch: 43000 Cost: 7.9792833
+Epoch: 43500 Cost: 7.927992
+Epoch: 44000 Cost: 7.877326
+Epoch: 44500 Cost: 7.8272963
+Epoch: 45000 Cost: 7.7778845
+Epoch: 45500 Cost: 7.729051
+Epoch: 46000 Cost: 7.6808376
+Epoch: 46500 Cost: 7.6331983
+Epoch: 47000 Cost: 7.5861244
+Epoch: 47500 Cost: 7.53961
+Epoch: 48000 Cost: 7.4936366
+Epoch: 48500 Cost: 7.448206
+Epoch: 49000 Cost: 7.4033065
+Epoch: 49500 Cost: 7.3589263
+Epoch: 49999 Cost: 7.315135
+W: [[-1.5787874   1.5792463 ]
+ [-2.971524    2.969456  ]
+ [-2.232521    2.2334576 ]
+ [-3.5238101   3.527088  ]
+ [-4.0756755   4.075215  ]
+ [ 0.17619443 -0.17645203]
+ [-3.5277443   3.5267465 ]
+ [-0.71725434  0.71733916]
+ [-2.4540632   2.4542944 ]
+ [ 2.2644644  -2.2678792 ]
+ [-0.2645119   0.26485565]
+ [-3.2986252   3.296721  ]
+ [-2.7526283   2.7525737 ]
+ [ 3.1662478  -3.16895   ]
+ [ 1.2438954  -1.2419506 ]
+ [ 2.061277   -2.060529  ]
+ [ 0.42223358 -0.4219102 ]
+ [-2.719887    2.7183728 ]
+ [-5.4126396   5.4121842 ]
+ [ 4.644165   -4.644105  ]
+ [-3.4947858   3.4951637 ]
+ [ 1.3549258  -1.3575729 ]
+ [-1.1463656   1.1450939 ]
+ [ 0.44387957 -0.44430408]
+ [-1.6407598   1.6428154 ]
+ [-4.5164156   4.516328  ]
+ [ 1.8393843  -1.839178  ]
+ [-1.6955242   1.6964307 ]
+ [-1.4940859   1.4966452 ]
+ [-1.1940063   1.1958449 ]
+ [ 1.1021585  -1.1009898 ]
+ [-5.0016637   5.000745  ]
+ [-1.3542172   1.3527108 ]
+ [-1.3125727   1.3112519 ]
+ [ 4.736055   -4.7358236 ]
+ [-1.1293613   1.1282575 ]
+ [-3.687613    3.6863608 ]
+ [-3.586334    3.5905347 ]
+ [ 4.0824866  -4.0818286 ]
+ [-2.3086936   2.3063872 ]
+ [-2.6266687   2.6263967 ]
+ [ 2.4774375  -2.476908  ]
+ [-0.62218904  0.6216575 ]
+ [ 3.4015877  -3.4007256 ]
+ [ 1.3221204  -1.3244067 ]
+ [-1.4750929   1.4761789 ]
+ [-0.28480998  0.2853692 ]
+ [ 0.7135696  -0.71225196]
+ [ 7.212351   -7.213497  ]
+ [ 4.273889   -4.273635  ]
+ [-1.6564121   1.6570385 ]
+ [-0.03914725  0.04018806]
+ [ 1.5180439  -1.5166671 ]
+ [ 0.07962275 -0.07832187]
+ [-0.32928735  0.3317946 ]
+ [-1.0697029   1.0693545 ]
+ [ 0.42670664 -0.4262237 ]
+ [ 6.2938857  -6.29261   ]], b: [ 6.5934834 -6.5941625]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:20.962692
+
+	Costs:
+		First Recorded Cost : 32.46537780761719
+		Last Recorded Cost : 7.3151350021362305
+		Average Cost : 11.694982161521912
+		Lowest Recorded Cost : 7.3151350021362305
+		Highest Recorded Cost : 32.46537780761719
+
+	Accuracy:
+		Final Accuracy: 86.47887110710144 %
+
+Confusion Matrix:
+[[135  28]
+ [ 20 172]]
+2020-12-16 18:58:49.904322: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 18:58:49.904349: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 18:58:51.460886: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 18:58:51.460908: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 18:58:51.460920: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 18:58:51.461087: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 18:58:51.488392: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 18:58:51.489280: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f046f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 18:58:51.489320: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 25.96598
+Epoch: 1000 Cost: 19.606007
+Epoch: 1500 Cost: 16.56431
+Epoch: 2000 Cost: 14.650101
+Epoch: 2500 Cost: 13.280071
+Epoch: 3000 Cost: 12.223831
+Epoch: 3500 Cost: 11.369687
+Epoch: 4000 Cost: 10.655964
+Epoch: 4500 Cost: 10.045319
+Epoch: 5000 Cost: 9.513536
+Epoch: 5500 Cost: 9.04404
+Epoch: 6000 Cost: 8.624994
+Epoch: 6500 Cost: 8.247641
+Epoch: 7000 Cost: 7.9053144
+Epoch: 7500 Cost: 7.592824
+Epoch: 8000 Cost: 7.306034
+Epoch: 8500 Cost: 7.0416117
+Epoch: 9000 Cost: 6.796807
+Epoch: 9500 Cost: 6.5693483
+Epoch: 10000 Cost: 6.357319
+Epoch: 10500 Cost: 6.159095
+Epoch: 11000 Cost: 5.9732885
+Epoch: 11500 Cost: 5.7986994
+Epoch: 12000 Cost: 5.6342897
+Epoch: 12500 Cost: 5.4791555
+Epoch: 13000 Cost: 5.3324924
+Epoch: 13500 Cost: 5.193601
+Epoch: 14000 Cost: 5.0618563
+Epoch: 14500 Cost: 4.9366984
+Epoch: 15000 Cost: 4.8176327
+Epoch: 15500 Cost: 4.7042117
+Epoch: 16000 Cost: 4.596031
+Epoch: 16500 Cost: 4.492731
+Epoch: 17000 Cost: 4.393981
+Epoch: 17500 Cost: 4.299473
+Epoch: 18000 Cost: 4.208942
+Epoch: 18500 Cost: 4.122138
+Epoch: 19000 Cost: 4.038827
+Epoch: 19500 Cost: 3.9588017
+Epoch: 20000 Cost: 3.8818731
+Epoch: 20500 Cost: 3.8078566
+Epoch: 21000 Cost: 3.7365904
+Epoch: 21500 Cost: 3.6679232
+Epoch: 22000 Cost: 3.6017132
+Epoch: 22500 Cost: 3.5378327
+Epoch: 23000 Cost: 3.4761558
+Epoch: 23500 Cost: 3.4165728
+Epoch: 24000 Cost: 3.3589778
+Epoch: 24500 Cost: 3.303272
+Epoch: 25000 Cost: 3.2493625
+Epoch: 25500 Cost: 3.197165
+Epoch: 26000 Cost: 3.1466026
+Epoch: 26500 Cost: 3.0975928
+Epoch: 27000 Cost: 3.0500681
+Epoch: 27500 Cost: 3.003964
+Epoch: 28000 Cost: 2.9592152
+Epoch: 28500 Cost: 2.9157634
+Epoch: 29000 Cost: 2.87355
+Epoch: 29500 Cost: 2.8325322
+Epoch: 30000 Cost: 2.7926483
+Epoch: 30500 Cost: 2.7538586
+Epoch: 31000 Cost: 2.7161171
+Epoch: 31500 Cost: 2.6793842
+Epoch: 32000 Cost: 2.643618
+Epoch: 32500 Cost: 2.6087804
+Epoch: 33000 Cost: 2.5748386
+Epoch: 33500 Cost: 2.541757
+Epoch: 34000 Cost: 2.5095
+Epoch: 34500 Cost: 2.4780467
+Epoch: 35000 Cost: 2.4473548
+Epoch: 35500 Cost: 2.417408
+Epoch: 36000 Cost: 2.3881702
+Epoch: 36500 Cost: 2.3596232
+Epoch: 37000 Cost: 2.3317444
+Epoch: 37500 Cost: 2.3045032
+Epoch: 38000 Cost: 2.2778852
+Epoch: 38500 Cost: 2.2518675
+Epoch: 39000 Cost: 2.2264261
+Epoch: 39500 Cost: 2.2015479
+Epoch: 40000 Cost: 2.1772108
+Epoch: 40500 Cost: 2.1534004
+Epoch: 41000 Cost: 2.130093
+Epoch: 41500 Cost: 2.1072817
+Epoch: 42000 Cost: 2.08495
+Epoch: 42500 Cost: 2.063076
+Epoch: 43000 Cost: 2.0416455
+Epoch: 43500 Cost: 2.0206578
+Epoch: 44000 Cost: 2.0000927
+Epoch: 44500 Cost: 1.9799316
+Epoch: 45000 Cost: 1.9601673
+Epoch: 45500 Cost: 1.9407947
+Epoch: 46000 Cost: 1.9217926
+Epoch: 46500 Cost: 1.903153
+Epoch: 47000 Cost: 1.884871
+Epoch: 47500 Cost: 1.8669276
+Epoch: 48000 Cost: 1.8493087
+Epoch: 48500 Cost: 1.8320322
+Epoch: 49000 Cost: 1.8150594
+Epoch: 49500 Cost: 1.7984071
+Epoch: 49999 Cost: 1.7820708
+W: [[-1.6129589e+00  1.6134477e+00]
+ [-4.6826530e+00  4.6832242e+00]
+ [ 9.3439907e-01 -9.3360865e-01]
+ [-2.0733936e+00  2.0759761e+00]
+ [-2.0062106e+00  2.0067039e+00]
+ [-4.6243534e+00  4.6232347e+00]
+ [-1.0124395e+00  1.0118133e+00]
+ [-2.4286172e+00  2.4289930e+00]
+ [-1.5231285e+00  1.5232291e+00]
+ [ 8.3206493e-01 -8.3166140e-01]
+ [-4.8934680e-01  4.9031141e-01]
+ [-1.9435918e+00  1.9441817e+00]
+ [-3.9238195e+00  3.9245076e+00]
+ [-4.4790626e-01  4.4968706e-01]
+ [ 2.0463097e+00 -2.0458896e+00]
+ [ 1.3684431e+00 -1.3684342e+00]
+ [-2.0816650e+00  2.0808632e+00]
+ [-3.7312508e-02  3.6559485e-02]
+ [-5.6514783e+00  5.6521997e+00]
+ [ 2.8509753e+00 -2.8529923e+00]
+ [ 1.8605555e+00 -1.8600364e+00]
+ [ 4.3723825e-01 -4.3625885e-01]
+ [-2.0339165e+00  2.0324881e+00]
+ [ 5.7251908e-02 -5.6655925e-02]
+ [-4.1284841e-01  4.1117430e-01]
+ [ 1.5579429e-01 -1.5485324e-01]
+ [ 2.2163208e-01 -2.2052376e-01]
+ [ 3.2884896e-01 -3.2855785e-01]
+ [-2.8275480e+00  2.8288836e+00]
+ [-6.3275599e-01  6.3264251e-01]
+ [ 2.3859828e+00 -2.3833754e+00]
+ [-3.4354005e+00  3.4373486e+00]
+ [ 8.0569249e-01 -8.0501157e-01]
+ [ 1.1318178e+00 -1.1309072e+00]
+ [ 2.6157749e+00 -2.6172249e+00]
+ [-2.3021238e+00  2.3025732e+00]
+ [-2.0673225e+00  2.0670221e+00]
+ [-4.0152602e+00  4.0123134e+00]
+ [-3.6772698e-01  3.6762580e-01]
+ [-1.8324429e+00  1.8325684e+00]
+ [ 1.5960736e+00 -1.5948368e+00]
+ [ 3.0877125e+00 -3.0870914e+00]
+ [-6.4725351e-01  6.4562267e-01]
+ [ 6.7325592e+00 -6.7311621e+00]
+ [-1.7986835e+00  1.7995611e+00]
+ [ 1.8580474e-01 -1.8533279e-01]
+ [ 2.0823669e+00 -2.0813878e+00]
+ [ 4.6116800e+00 -4.6127963e+00]
+ [ 3.4844499e+00 -3.4843688e+00]
+ [ 4.8368411e+00 -4.8364801e+00]
+ [-2.1115844e+00  2.1112068e+00]
+ [ 5.5978042e-01 -5.5894399e-01]
+ [ 4.1783099e+00 -4.1831794e+00]
+ [ 1.5832412e-03 -1.9609360e-03]
+ [-6.0095793e-01  6.0131007e-01]
+ [-1.2691861e+00  1.2666613e+00]
+ [-3.1447911e+00  3.1443033e+00]
+ [ 8.7693489e-01 -8.7607437e-01]], b: [ 7.803264  -7.8019633]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:20.044300
+
+	Costs:
+		First Recorded Cost : 25.965980529785156
+		Last Recorded Cost : 1.7820707559585571
+		Average Cost : 4.694952715635299
+		Lowest Recorded Cost : 1.7820707559585571
+		Highest Recorded Cost : 25.965980529785156
+
+	Accuracy:
+		Final Accuracy: 89.29577469825745 %
+
+Confusion Matrix:
+[[153  18]
+ [ 20 164]]
+2020-12-16 19:00:12.046930: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 19:00:12.046955: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 19:00:13.612630: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 19:00:13.612652: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 19:00:13.612666: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 19:00:13.612847: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 19:00:13.636305: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 19:00:13.636901: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4a1aee0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 19:00:13.636926: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 36.89347
+Epoch: 1000 Cost: 31.24207
+Epoch: 1500 Cost: 28.39949
+Epoch: 2000 Cost: 26.552677
+Epoch: 2500 Cost: 25.208487
+Epoch: 3000 Cost: 24.163895
+Epoch: 3500 Cost: 23.315968
+Epoch: 4000 Cost: 22.60564
+Epoch: 4500 Cost: 21.996162
+Epoch: 5000 Cost: 21.463297
+Epoch: 5500 Cost: 20.990307
+Epoch: 6000 Cost: 20.565228
+Epoch: 6500 Cost: 20.179226
+Epoch: 7000 Cost: 19.825642
+Epoch: 7500 Cost: 19.499329
+Epoch: 8000 Cost: 19.196255
+Epoch: 8500 Cost: 18.913185
+Epoch: 9000 Cost: 18.647532
+Epoch: 9500 Cost: 18.39716
+Epoch: 10000 Cost: 18.160305
+Epoch: 10500 Cost: 17.935497
+Epoch: 11000 Cost: 17.721498
+Epoch: 11500 Cost: 17.517242
+Epoch: 12000 Cost: 17.321836
+Epoch: 12500 Cost: 17.134495
+Epoch: 13000 Cost: 16.954527
+Epoch: 13500 Cost: 16.78135
+Epoch: 14000 Cost: 16.614431
+Epoch: 14500 Cost: 16.453308
+Epoch: 15000 Cost: 16.29756
+Epoch: 15500 Cost: 16.146824
+Epoch: 16000 Cost: 16.00076
+Epoch: 16500 Cost: 15.859067
+Epoch: 17000 Cost: 15.721473
+Epoch: 17500 Cost: 15.587735
+Epoch: 18000 Cost: 15.457615
+Epoch: 18500 Cost: 15.330911
+Epoch: 19000 Cost: 15.207432
+Epoch: 19500 Cost: 15.087
+Epoch: 20000 Cost: 14.969458
+Epoch: 20500 Cost: 14.854653
+Epoch: 21000 Cost: 14.742452
+Epoch: 21500 Cost: 14.632726
+Epoch: 22000 Cost: 14.525349
+Epoch: 22500 Cost: 14.420225
+Epoch: 23000 Cost: 14.317247
+Epoch: 23500 Cost: 14.216313
+Epoch: 24000 Cost: 14.117349
+Epoch: 24500 Cost: 14.02026
+Epoch: 25000 Cost: 13.924961
+Epoch: 25500 Cost: 13.8314
+Epoch: 26000 Cost: 13.739486
+Epoch: 26500 Cost: 13.649174
+Epoch: 27000 Cost: 13.560403
+Epoch: 27500 Cost: 13.473101
+Epoch: 28000 Cost: 13.38722
+Epoch: 28500 Cost: 13.302721
+Epoch: 29000 Cost: 13.219543
+Epoch: 29500 Cost: 13.137656
+Epoch: 30000 Cost: 13.057001
+Epoch: 30500 Cost: 12.977556
+Epoch: 31000 Cost: 12.899277
+Epoch: 31500 Cost: 12.822119
+Epoch: 32000 Cost: 12.7460575
+Epoch: 32500 Cost: 12.671045
+Epoch: 33000 Cost: 12.59707
+Epoch: 33500 Cost: 12.524103
+Epoch: 34000 Cost: 12.452104
+Epoch: 34500 Cost: 12.381044
+Epoch: 35000 Cost: 12.310905
+Epoch: 35500 Cost: 12.241665
+Epoch: 36000 Cost: 12.173298
+Epoch: 36500 Cost: 12.105777
+Epoch: 37000 Cost: 12.039091
+Epoch: 37500 Cost: 11.973206
+Epoch: 38000 Cost: 11.908117
+Epoch: 38500 Cost: 11.843803
+Epoch: 39000 Cost: 11.78024
+Epoch: 39500 Cost: 11.717401
+Epoch: 40000 Cost: 11.655291
+Epoch: 40500 Cost: 11.593891
+Epoch: 41000 Cost: 11.533166
+Epoch: 41500 Cost: 11.473118
+Epoch: 42000 Cost: 11.413729
+Epoch: 42500 Cost: 11.354988
+Epoch: 43000 Cost: 11.296881
+Epoch: 43500 Cost: 11.239391
+Epoch: 44000 Cost: 11.182512
+Epoch: 44500 Cost: 11.126206
+Epoch: 45000 Cost: 11.070509
+Epoch: 45500 Cost: 11.015376
+Epoch: 46000 Cost: 10.960803
+Epoch: 46500 Cost: 10.906794
+Epoch: 47000 Cost: 10.853288
+Epoch: 47500 Cost: 10.8003435
+Epoch: 48000 Cost: 10.747919
+Epoch: 48500 Cost: 10.696003
+Epoch: 49000 Cost: 10.644595
+Epoch: 49500 Cost: 10.593691
+Epoch: 49999 Cost: 10.543348
+W: [[ 3.3596795e+00 -3.3605006e+00]
+ [-5.7287517e+00  5.7287965e+00]
+ [ 9.1675895e-01 -9.1558886e-01]
+ [-4.0650525e+00  4.0651283e+00]
+ [-2.7759075e+00  2.7752903e+00]
+ [ 1.5143362e+00 -1.5161910e+00]
+ [-8.0712664e-01  8.0520034e-01]
+ [ 8.4786659e-01 -8.4698439e-01]
+ [-4.1933260e+00  4.1901755e+00]
+ [-2.3724040e-01  2.3889391e-01]
+ [ 3.9111960e-01 -3.9328513e-01]
+ [-1.9026531e+00  1.9017901e+00]
+ [-2.4913132e+00  2.4906588e+00]
+ [-2.6260800e+00  2.6265929e+00]
+ [ 1.0926667e+00 -1.0912195e+00]
+ [-7.7314251e-03  7.1614869e-03]
+ [-9.6075577e-01  9.6061718e-01]
+ [ 1.9456550e+00 -1.9435694e+00]
+ [-6.5677624e+00  6.5654788e+00]
+ [ 3.2401690e+00 -3.2389150e+00]
+ [-2.2391523e-01  2.2441529e-01]
+ [-1.5842733e+00  1.5854797e+00]
+ [-3.3767345e+00  3.3750625e+00]
+ [ 1.7543226e-01 -1.7729282e-01]
+ [-1.2972795e+00  1.2944217e+00]
+ [ 1.8886433e+00 -1.8886369e+00]
+ [ 1.3138576e+00 -1.3159879e+00]
+ [ 1.2656915e+00 -1.2659438e+00]
+ [-7.4557471e+00  7.4553900e+00]
+ [-3.2495744e+00  3.2507553e+00]
+ [ 5.9073365e-01 -5.8977801e-01]
+ [-1.2730235e+00  1.2726274e+00]
+ [-9.9529833e-01  9.9557710e-01]
+ [-3.3475128e-01  3.3455846e-01]
+ [ 3.7780077e+00 -3.7765527e+00]
+ [-1.6534257e-01  1.6375080e-01]
+ [-1.7539594e+00  1.7556254e+00]
+ [-3.0176785e+00  3.0172620e+00]
+ [ 2.4201975e+00 -2.4169059e+00]
+ [-1.1888120e+00  1.1893306e+00]
+ [-9.5225483e-01  9.5045954e-01]
+ [ 3.0788233e+00 -3.0801113e+00]
+ [ 2.6547971e+00 -2.6538246e+00]
+ [ 2.5688989e+00 -2.5697834e+00]
+ [ 7.8394324e-01 -7.8299165e-01]
+ [-5.8189650e+00  5.8183489e+00]
+ [-7.8997707e-01  7.8936255e-01]
+ [ 5.1110139e+00 -5.1099634e+00]
+ [ 5.0669847e+00 -5.0658369e+00]
+ [ 3.6334090e+00 -3.6336944e+00]
+ [-8.2434982e-01  8.2352644e-01]
+ [-9.0922511e-01  9.0972787e-01]
+ [ 3.1349123e+00 -3.1348431e+00]
+ [-5.1383561e-01  5.1488107e-01]
+ [-4.4756217e+00  4.4731674e+00]
+ [-3.6191103e-01  3.6121503e-01]
+ [ 2.9310133e+00 -2.9334800e+00]
+ [ 3.9349470e+00 -3.9348829e+00]], b: [ 7.045603  -7.0460734]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:07.479509
+
+	Costs:
+		First Recorded Cost : 36.893470764160156
+		Last Recorded Cost : 10.54334831237793
+		Average Cost : 15.273103008270263
+		Lowest Recorded Cost : 10.54334831237793
+		Highest Recorded Cost : 36.893470764160156
+
+	Accuracy:
+		Final Accuracy: 90.14084339141846 %
+
+Confusion Matrix:
+[[143  20]
+ [ 15 177]]
+2020-12-16 19:01:21.660338: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 19:01:21.660368: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 19:01:23.289921: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 19:01:23.289953: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 19:01:23.289969: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 19:01:23.290154: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 19:01:23.312280: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 19:01:23.313278: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5bccbd0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 19:01:23.313324: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 30.989624
+Epoch: 1000 Cost: 25.486992
+Epoch: 1500 Cost: 22.694263
+Epoch: 2000 Cost: 20.835678
+Epoch: 2500 Cost: 19.444557
+Epoch: 3000 Cost: 18.332478
+Epoch: 3500 Cost: 17.405493
+Epoch: 4000 Cost: 16.610348
+Epoch: 4500 Cost: 15.91406
+Epoch: 5000 Cost: 15.294828
+Epoch: 5500 Cost: 14.73747
+Epoch: 6000 Cost: 14.230978
+Epoch: 6500 Cost: 13.767104
+Epoch: 7000 Cost: 13.3395
+Epoch: 7500 Cost: 12.943169
+Epoch: 8000 Cost: 12.574099
+Epoch: 8500 Cost: 12.229019
+Epoch: 9000 Cost: 11.905231
+Epoch: 9500 Cost: 11.600465
+Epoch: 10000 Cost: 11.312813
+Epoch: 10500 Cost: 11.04064
+Epoch: 11000 Cost: 10.782536
+Epoch: 11500 Cost: 10.537281
+Epoch: 12000 Cost: 10.30381
+Epoch: 12500 Cost: 10.081181
+Epoch: 13000 Cost: 9.868564
+Epoch: 13500 Cost: 9.665223
+Epoch: 14000 Cost: 9.4705
+Epoch: 14500 Cost: 9.283801
+Epoch: 15000 Cost: 9.104589
+Epoch: 15500 Cost: 8.93239
+Epoch: 16000 Cost: 8.76676
+Epoch: 16500 Cost: 8.607304
+Epoch: 17000 Cost: 8.453655
+Epoch: 17500 Cost: 8.305479
+Epoch: 18000 Cost: 8.162472
+Epoch: 18500 Cost: 8.024355
+Epoch: 19000 Cost: 7.8908587
+Epoch: 19500 Cost: 7.761749
+Epoch: 20000 Cost: 7.6368065
+Epoch: 20500 Cost: 7.515811
+Epoch: 21000 Cost: 7.398587
+Epoch: 21500 Cost: 7.2849402
+Epoch: 22000 Cost: 7.1747036
+Epoch: 22500 Cost: 7.067732
+Epoch: 23000 Cost: 6.963874
+Epoch: 23500 Cost: 6.8629827
+Epoch: 24000 Cost: 6.764936
+Epoch: 24500 Cost: 6.6696143
+Epoch: 25000 Cost: 6.5769024
+Epoch: 25500 Cost: 6.48668
+Epoch: 26000 Cost: 6.3988686
+Epoch: 26500 Cost: 6.3133626
+Epoch: 27000 Cost: 6.2300653
+Epoch: 27500 Cost: 6.1488886
+Epoch: 28000 Cost: 6.0697656
+Epoch: 28500 Cost: 5.9926043
+Epoch: 29000 Cost: 5.9173365
+Epoch: 29500 Cost: 5.8438964
+Epoch: 30000 Cost: 5.7722144
+Epoch: 30500 Cost: 5.702226
+Epoch: 31000 Cost: 5.6338797
+Epoch: 31500 Cost: 5.5671053
+Epoch: 32000 Cost: 5.5018663
+Epoch: 32500 Cost: 5.4380894
+Epoch: 33000 Cost: 5.375739
+Epoch: 33500 Cost: 5.314766
+Epoch: 34000 Cost: 5.2551317
+Epoch: 34500 Cost: 5.196774
+Epoch: 35000 Cost: 5.1396704
+Epoch: 35500 Cost: 5.083779
+Epoch: 36000 Cost: 5.029052
+Epoch: 36500 Cost: 4.975456
+Epoch: 37000 Cost: 4.9229617
+Epoch: 37500 Cost: 4.871539
+Epoch: 38000 Cost: 4.8211527
+Epoch: 38500 Cost: 4.771759
+Epoch: 39000 Cost: 4.723344
+Epoch: 39500 Cost: 4.675877
+Epoch: 40000 Cost: 4.629322
+Epoch: 40500 Cost: 4.583663
+Epoch: 41000 Cost: 4.5388656
+Epoch: 41500 Cost: 4.4949126
+Epoch: 42000 Cost: 4.451777
+Epoch: 42500 Cost: 4.4094405
+Epoch: 43000 Cost: 4.3678856
+Epoch: 43500 Cost: 4.327074
+Epoch: 44000 Cost: 4.287003
+Epoch: 44500 Cost: 4.247636
+Epoch: 45000 Cost: 4.2089806
+Epoch: 45500 Cost: 4.1709914
+Epoch: 46000 Cost: 4.133669
+Epoch: 46500 Cost: 4.096991
+Epoch: 47000 Cost: 4.060936
+Epoch: 47500 Cost: 4.025485
+Epoch: 48000 Cost: 3.990643
+Epoch: 48500 Cost: 3.9563746
+Epoch: 49000 Cost: 3.9226828
+Epoch: 49500 Cost: 3.889538
+Epoch: 49999 Cost: 3.8569875
+W: [[ 1.5855061  -1.5864288 ]
+ [-1.2163137   1.2149396 ]
+ [-1.6973928   1.6963581 ]
+ [-1.479568    1.4825559 ]
+ [-1.4627248   1.4631798 ]
+ [-3.0117667   3.0108502 ]
+ [-1.1951526   1.1938021 ]
+ [-0.6701888   0.6710099 ]
+ [-4.056003    4.056226  ]
+ [ 0.31269544 -0.31394565]
+ [-0.81761587  0.8179719 ]
+ [-3.4102592   3.4092326 ]
+ [-6.211537    6.210874  ]
+ [ 3.1302235  -3.130504  ]
+ [-2.1617444   2.1621852 ]
+ [ 1.6723435  -1.6731987 ]
+ [-2.5182538   2.5172086 ]
+ [ 4.214718   -4.2145514 ]
+ [-6.510081    6.5105844 ]
+ [ 0.96921635 -0.96933424]
+ [ 1.3488547  -1.3440647 ]
+ [ 0.3174029  -0.31857714]
+ [-4.5044603   4.505451  ]
+ [-0.5723388   0.5711086 ]
+ [ 4.53869    -4.5393977 ]
+ [-4.9040184   4.902154  ]
+ [-0.11946721  0.11906169]
+ [ 0.5410214  -0.5436449 ]
+ [-3.7975492   3.8005056 ]
+ [-1.5670329   1.5660313 ]
+ [ 3.120236   -3.12166   ]
+ [-4.5227733   4.5223646 ]
+ [-0.34023157  0.3389664 ]
+ [ 5.2143726  -5.214035  ]
+ [ 0.48453417 -0.48576516]
+ [ 2.0145557  -2.0124698 ]
+ [-1.0307074   1.031055  ]
+ [-1.7924958   1.7918206 ]
+ [-2.881549    2.880658  ]
+ [ 1.7019752  -1.7030286 ]
+ [-1.0940021   1.0930982 ]
+ [ 0.30504236 -0.30559966]
+ [-4.0351768   4.0342    ]
+ [ 2.9749038  -2.974838  ]
+ [-1.2308607   1.2314656 ]
+ [-5.4081388   5.4062076 ]
+ [ 1.9613571  -1.9621732 ]
+ [-0.38057086  0.38191816]
+ [ 2.0196795  -2.0184026 ]
+ [ 6.8032756  -6.804277  ]
+ [-0.7459175   0.7451135 ]
+ [-0.955339    0.9563133 ]
+ [ 1.7376297  -1.7391785 ]
+ [ 1.4816748  -1.4816557 ]
+ [-4.4825826   4.4808364 ]
+ [ 0.6181251  -0.6176663 ]
+ [-0.904893    0.9033794 ]
+ [ 1.7197542  -1.72012   ]], b: [ 7.9887867 -7.9893475]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:18.786186
+
+	Costs:
+		First Recorded Cost : 30.9896240234375
+		Last Recorded Cost : 3.856987476348877
+		Average Cost : 8.324329135417939
+		Lowest Recorded Cost : 3.856987476348877
+		Highest Recorded Cost : 30.9896240234375
+
+	Accuracy:
+		Final Accuracy: 91.54929518699646 %
+
+Confusion Matrix:
+[[146  18]
+ [ 12 179]]
+2020-12-16 19:02:42.629455: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 19:02:42.629481: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 19:02:44.179384: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 19:02:44.179406: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 19:02:44.179418: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 19:02:44.179595: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 19:02:44.204265: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 19:02:44.204951: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4aad990 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 19:02:44.204978: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 29.25338
+Epoch: 1000 Cost: 24.165411
+Epoch: 1500 Cost: 21.81968
+Epoch: 2000 Cost: 20.398481
+Epoch: 2500 Cost: 19.41776
+Epoch: 3000 Cost: 18.685728
+Epoch: 3500 Cost: 18.109566
+Epoch: 4000 Cost: 17.638407
+Epoch: 4500 Cost: 17.241835
+Epoch: 5000 Cost: 16.900436
+Epoch: 5500 Cost: 16.601168
+Epoch: 6000 Cost: 16.334911
+Epoch: 6500 Cost: 16.095064
+Epoch: 7000 Cost: 15.876722
+Epoch: 7500 Cost: 15.676163
+Epoch: 8000 Cost: 15.4904995
+Epoch: 8500 Cost: 15.317459
+Epoch: 9000 Cost: 15.155235
+Epoch: 9500 Cost: 15.002371
+Epoch: 10000 Cost: 14.857671
+Epoch: 10500 Cost: 14.7201605
+Epoch: 11000 Cost: 14.5890255
+Epoch: 11500 Cost: 14.463587
+Epoch: 12000 Cost: 14.343275
+Epoch: 12500 Cost: 14.227602
+Epoch: 13000 Cost: 14.116158
+Epoch: 13500 Cost: 14.008581
+Epoch: 14000 Cost: 13.904568
+Epoch: 14500 Cost: 13.803848
+Epoch: 15000 Cost: 13.70619
+Epoch: 15500 Cost: 13.611384
+Epoch: 16000 Cost: 13.519249
+Epoch: 16500 Cost: 13.429623
+Epoch: 17000 Cost: 13.342358
+Epoch: 17500 Cost: 13.257326
+Epoch: 18000 Cost: 13.174405
+Epoch: 18500 Cost: 13.093487
+Epoch: 19000 Cost: 13.014475
+Epoch: 19500 Cost: 12.937283
+Epoch: 20000 Cost: 12.86182
+Epoch: 20500 Cost: 12.788019
+Epoch: 21000 Cost: 12.715797
+Epoch: 21500 Cost: 12.6451
+Epoch: 22000 Cost: 12.575857
+Epoch: 22500 Cost: 12.508022
+Epoch: 23000 Cost: 12.441526
+Epoch: 23500 Cost: 12.376335
+Epoch: 24000 Cost: 12.312382
+Epoch: 24500 Cost: 12.249641
+Epoch: 25000 Cost: 12.188065
+Epoch: 25500 Cost: 12.127606
+Epoch: 26000 Cost: 12.068232
+Epoch: 26500 Cost: 12.009907
+Epoch: 27000 Cost: 11.952596
+Epoch: 27500 Cost: 11.896269
+Epoch: 28000 Cost: 11.840891
+Epoch: 28500 Cost: 11.786435
+Epoch: 29000 Cost: 11.732876
+Epoch: 29500 Cost: 11.680176
+Epoch: 30000 Cost: 11.628315
+Epoch: 30500 Cost: 11.577273
+Epoch: 31000 Cost: 11.527029
+Epoch: 31500 Cost: 11.4775505
+Epoch: 32000 Cost: 11.428821
+Epoch: 32500 Cost: 11.380817
+Epoch: 33000 Cost: 11.3335285
+Epoch: 33500 Cost: 11.286924
+Epoch: 34000 Cost: 11.2409935
+Epoch: 34500 Cost: 11.195711
+Epoch: 35000 Cost: 11.151073
+Epoch: 35500 Cost: 11.107056
+Epoch: 36000 Cost: 11.063629
+Epoch: 36500 Cost: 11.020794
+Epoch: 37000 Cost: 10.978542
+Epoch: 37500 Cost: 10.936848
+Epoch: 38000 Cost: 10.895697
+Epoch: 38500 Cost: 10.855066
+Epoch: 39000 Cost: 10.814964
+Epoch: 39500 Cost: 10.77537
+Epoch: 40000 Cost: 10.736265
+Epoch: 40500 Cost: 10.697651
+Epoch: 41000 Cost: 10.659521
+Epoch: 41500 Cost: 10.621835
+Epoch: 42000 Cost: 10.584597
+Epoch: 42500 Cost: 10.547798
+Epoch: 43000 Cost: 10.511443
+Epoch: 43500 Cost: 10.475513
+Epoch: 44000 Cost: 10.439989
+Epoch: 44500 Cost: 10.40486
+Epoch: 45000 Cost: 10.37013
+Epoch: 45500 Cost: 10.335788
+Epoch: 46000 Cost: 10.301822
+Epoch: 46500 Cost: 10.268223
+Epoch: 47000 Cost: 10.234987
+Epoch: 47500 Cost: 10.202093
+Epoch: 48000 Cost: 10.169563
+Epoch: 48500 Cost: 10.137367
+Epoch: 49000 Cost: 10.105515
+Epoch: 49500 Cost: 10.073957
+Epoch: 49999 Cost: 10.042805
+W: [[ 0.72817934 -0.7292124 ]
+ [-3.575058    3.5761755 ]
+ [-0.3423401   0.34070438]
+ [-3.1285295   3.1271167 ]
+ [-0.13010035  0.13341936]
+ [-0.29352847  0.29321736]
+ [-1.5245421   1.5261937 ]
+ [-1.0479624   1.0497665 ]
+ [ 0.17397146 -0.17609853]
+ [-0.7444607   0.7461718 ]
+ [ 1.1877699  -1.1869175 ]
+ [-0.5072811   0.5068307 ]
+ [-1.2300078   1.2303798 ]
+ [ 0.17677368 -0.17892216]
+ [ 2.1781619  -2.1779196 ]
+ [-4.5427175   4.5420666 ]
+ [ 0.17101204 -0.16957083]
+ [ 0.84266305 -0.84317   ]
+ [-4.4443474   4.446028  ]
+ [ 0.6476459  -0.64901304]
+ [ 0.9168403  -0.9165821 ]
+ [-1.0127139   1.0124495 ]
+ [-1.4782002   1.4792154 ]
+ [ 3.014153   -3.013566  ]
+ [-3.5479677   3.5487456 ]
+ [ 2.9719944  -2.9722612 ]
+ [ 0.05305313 -0.05411405]
+ [-0.5979647   0.5954791 ]
+ [-0.11341769  0.11292963]
+ [ 0.72435886 -0.7238807 ]
+ [ 0.23170722 -0.23249961]
+ [-3.2559795   3.2547715 ]
+ [ 2.4441009  -2.443095  ]
+ [ 1.9713241  -1.9728411 ]
+ [-0.80600446  0.806355  ]
+ [-2.515852    2.5179324 ]
+ [ 1.5790452  -1.5783525 ]
+ [-4.0327315   4.034395  ]
+ [-3.5015771   3.5020401 ]
+ [ 1.0203483  -1.0216016 ]
+ [-3.500908    3.5004714 ]
+ [ 1.4407462  -1.4388062 ]
+ [-3.5888338   3.589627  ]
+ [ 5.1580143  -5.1575894 ]
+ [ 2.016083   -2.0158508 ]
+ [-2.7123914   2.7148159 ]
+ [-2.1261892   2.1254387 ]
+ [ 5.319561   -5.320975  ]
+ [ 4.4913216  -4.491239  ]
+ [ 3.6735463  -3.6725004 ]
+ [-3.7618358   3.758269  ]
+ [-0.25744948  0.25491145]
+ [ 1.7875562  -1.7870383 ]
+ [ 0.09539763 -0.09380113]
+ [-0.32782578  0.3288408 ]
+ [-0.4466786   0.44525203]
+ [ 1.9375428  -1.9368287 ]
+ [-0.0251864   0.02615973]], b: [ 3.596262  -3.5971258]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:20.980182
+
+	Costs:
+		First Recorded Cost : 29.253379821777344
+		Last Recorded Cost : 10.042804718017578
+		Average Cost : 13.076558074951173
+		Lowest Recorded Cost : 10.042804718017578
+		Highest Recorded Cost : 29.253379821777344
+
+	Accuracy:
+		Final Accuracy: 80.0000011920929 %
+
+Confusion Matrix:
+[[129  44]
+ [ 27 155]]
+2020-12-16 19:04:05.712124: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 19:04:05.712156: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 19:04:07.294205: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 19:04:07.294229: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 19:04:07.294242: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 19:04:07.294410: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 19:04:07.316392: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 19:04:07.317202: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5334860 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 19:04:07.317235: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 28.047768
+Epoch: 1000 Cost: 21.879475
+Epoch: 1500 Cost: 18.689564
+Epoch: 2000 Cost: 16.605944
+Epoch: 2500 Cost: 15.090647
+Epoch: 3000 Cost: 13.914911
+Epoch: 3500 Cost: 12.961563
+Epoch: 4000 Cost: 12.163698
+Epoch: 4500 Cost: 11.480104
+Epoch: 5000 Cost: 10.883856
+Epoch: 5500 Cost: 10.356514
+Epoch: 6000 Cost: 9.8849325
+Epoch: 6500 Cost: 9.45943
+Epoch: 7000 Cost: 9.07266
+Epoch: 7500 Cost: 8.718916
+Epoch: 8000 Cost: 8.393674
+Epoch: 8500 Cost: 8.093281
+Epoch: 9000 Cost: 7.8147364
+Epoch: 9500 Cost: 7.5555496
+Epoch: 10000 Cost: 7.313627
+Epoch: 10500 Cost: 7.087182
+Epoch: 11000 Cost: 6.8746977
+Epoch: 11500 Cost: 6.6748505
+Epoch: 12000 Cost: 6.486493
+Epoch: 12500 Cost: 6.3086233
+Epoch: 13000 Cost: 6.140353
+Epoch: 13500 Cost: 5.980901
+Epoch: 14000 Cost: 5.8295727
+Epoch: 14500 Cost: 5.6857433
+Epoch: 15000 Cost: 5.548856
+Epoch: 15500 Cost: 5.4184103
+Epoch: 16000 Cost: 5.2939496
+Epoch: 16500 Cost: 5.175067
+Epoch: 17000 Cost: 5.061391
+Epoch: 17500 Cost: 4.9525776
+Epoch: 18000 Cost: 4.848322
+Epoch: 18500 Cost: 4.7483377
+Epoch: 19000 Cost: 4.6523647
+Epoch: 19500 Cost: 4.5601664
+Epoch: 20000 Cost: 4.4715195
+Epoch: 20500 Cost: 4.3862247
+Epoch: 21000 Cost: 4.304094
+Epoch: 21500 Cost: 4.22495
+Epoch: 22000 Cost: 4.148638
+Epoch: 22500 Cost: 4.0750017
+Epoch: 23000 Cost: 4.0039062
+Epoch: 23500 Cost: 3.9352217
+Epoch: 24000 Cost: 3.8688245
+Epoch: 24500 Cost: 3.8046067
+Epoch: 25000 Cost: 3.7424583
+Epoch: 25500 Cost: 3.6822839
+Epoch: 26000 Cost: 3.6239903
+Epoch: 26500 Cost: 3.567491
+Epoch: 27000 Cost: 3.5127006
+Epoch: 27500 Cost: 3.4595516
+Epoch: 28000 Cost: 3.4079614
+Epoch: 28500 Cost: 3.3578727
+Epoch: 29000 Cost: 3.309208
+Epoch: 29500 Cost: 3.2619205
+Epoch: 30000 Cost: 3.2159395
+Epoch: 30500 Cost: 3.1712341
+Epoch: 31000 Cost: 3.127727
+Epoch: 31500 Cost: 3.085384
+Epoch: 32000 Cost: 3.0441575
+Epoch: 32500 Cost: 3.0039978
+Epoch: 33000 Cost: 2.964878
+Epoch: 33500 Cost: 2.9267495
+Epoch: 34000 Cost: 2.8895707
+Epoch: 34500 Cost: 2.853313
+Epoch: 35000 Cost: 2.8179455
+Epoch: 35500 Cost: 2.7834291
+Epoch: 36000 Cost: 2.7497385
+Epoch: 36500 Cost: 2.716841
+Epoch: 37000 Cost: 2.6847057
+Epoch: 37500 Cost: 2.6533208
+Epoch: 38000 Cost: 2.6226482
+Epoch: 38500 Cost: 2.5926692
+Epoch: 39000 Cost: 2.5633554
+Epoch: 39500 Cost: 2.5346894
+Epoch: 40000 Cost: 2.5066485
+Epoch: 40500 Cost: 2.4792137
+Epoch: 41000 Cost: 2.4523625
+Epoch: 41500 Cost: 2.4260857
+Epoch: 42000 Cost: 2.4003582
+Epoch: 42500 Cost: 2.3751569
+Epoch: 43000 Cost: 2.3504727
+Epoch: 43500 Cost: 2.326294
+Epoch: 44000 Cost: 2.3026009
+Epoch: 44500 Cost: 2.2793865
+Epoch: 45000 Cost: 2.2566242
+Epoch: 45500 Cost: 2.2343006
+Epoch: 46000 Cost: 2.2124152
+Epoch: 46500 Cost: 2.190944
+Epoch: 47000 Cost: 2.1698823
+Epoch: 47500 Cost: 2.1492186
+Epoch: 48000 Cost: 2.1289413
+Epoch: 48500 Cost: 2.1090338
+Epoch: 49000 Cost: 2.089497
+Epoch: 49500 Cost: 2.0703044
+Epoch: 49999 Cost: 2.051501
+W: [[ 0.87207735 -0.873605  ]
+ [-2.1486344   2.1494453 ]
+ [-2.8963528   2.8940587 ]
+ [-3.6638558   3.6652513 ]
+ [-1.9002291   1.9006217 ]
+ [-2.4543524   2.4525907 ]
+ [-3.7070763   3.705752  ]
+ [-0.06373858  0.0633296 ]
+ [-2.785674    2.7858105 ]
+ [ 1.2677925  -1.266715  ]
+ [-0.44012403  0.44149113]
+ [-2.1742365   2.1744444 ]
+ [-2.3651764   2.3660867 ]
+ [ 0.18997732 -0.19027327]
+ [-1.3042153   1.3038496 ]
+ [ 2.1653652  -2.16325   ]
+ [-1.637068    1.6371673 ]
+ [ 0.2559756  -0.25533342]
+ [-5.706312    5.7078195 ]
+ [ 4.4356265  -4.4365797 ]
+ [ 2.7001286  -2.6995602 ]
+ [-1.7278479   1.7286963 ]
+ [-2.8858917   2.8861673 ]
+ [ 0.6504633  -0.6523953 ]
+ [-2.4745097   2.473549  ]
+ [-2.0824351   2.08282   ]
+ [-0.81646985  0.81593704]
+ [ 1.6305425  -1.6320317 ]
+ [-3.2432675   3.2433317 ]
+ [-0.18396758  0.18420127]
+ [ 3.4026046  -3.4020653 ]
+ [-3.723014    3.7229757 ]
+ [-1.7831683   1.7849244 ]
+ [ 0.7068464  -0.7081742 ]
+ [ 3.617637   -3.6171885 ]
+ [ 0.40584657 -0.40343493]
+ [-0.8589769   0.8573005 ]
+ [ 0.4743302  -0.47321627]
+ [-2.7181573   2.7192192 ]
+ [-1.0593132   1.0580317 ]
+ [ 1.9532508  -1.9550136 ]
+ [ 4.2883344  -4.2896614 ]
+ [ 0.2539709  -0.25172472]
+ [ 3.0180578  -3.0183017 ]
+ [-1.3293952   1.3297949 ]
+ [-3.7807405   3.7839055 ]
+ [ 1.490815   -1.4921558 ]
+ [ 3.6451147  -3.6464047 ]
+ [ 5.19677    -5.1955614 ]
+ [ 5.2458644  -5.247535  ]
+ [-2.4696448   2.4697454 ]
+ [-2.9819982   2.9853294 ]
+ [ 0.9600345  -0.9603953 ]
+ [ 0.00696949 -0.00627618]
+ [-3.587131    3.5848763 ]
+ [ 0.66706526 -0.6690549 ]
+ [ 1.7412227  -1.7376621 ]
+ [ 3.4457128  -3.4459062 ]], b: [ 7.9544783 -7.952407 ]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:21.355279
+
+	Costs:
+		First Recorded Cost : 28.047767639160156
+		Last Recorded Cost : 2.0515010356903076
+		Average Cost : 5.364206686019897
+		Lowest Recorded Cost : 2.0515010356903076
+		Highest Recorded Cost : 28.047767639160156
+
+	Accuracy:
+		Final Accuracy: 91.83098673820496 %
+
+Confusion Matrix:
+[[160  20]
+ [  9 166]]
+2020-12-16 19:05:29.197856: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 19:05:29.197880: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 19:05:30.763724: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 19:05:30.763745: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 19:05:30.763758: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 19:05:30.763930: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 19:05:30.788322: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 19:05:30.789157: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4da8f00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 19:05:30.789198: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 24.147102
+Epoch: 1000 Cost: 18.369959
+Epoch: 1500 Cost: 15.354714
+Epoch: 2000 Cost: 13.362541
+Epoch: 2500 Cost: 11.900337
+Epoch: 3000 Cost: 10.761159
+Epoch: 3500 Cost: 9.839036
+Epoch: 4000 Cost: 9.072463
+Epoch: 4500 Cost: 8.42252
+Epoch: 5000 Cost: 7.862996
+Epoch: 5500 Cost: 7.375378
+Epoch: 6000 Cost: 6.9461164
+Epoch: 6500 Cost: 6.5649967
+Epoch: 7000 Cost: 6.224139
+Epoch: 7500 Cost: 5.91734
+Epoch: 8000 Cost: 5.6396494
+Epoch: 8500 Cost: 5.3870454
+Epoch: 9000 Cost: 5.1562333
+Epoch: 9500 Cost: 4.944478
+Epoch: 10000 Cost: 4.74949
+Epoch: 10500 Cost: 4.569338
+Epoch: 11000 Cost: 4.402379
+Epoch: 11500 Cost: 4.2472086
+Epoch: 12000 Cost: 4.1026134
+Epoch: 12500 Cost: 3.9675422
+Epoch: 13000 Cost: 3.8410823
+Epoch: 13500 Cost: 3.7224326
+Epoch: 14000 Cost: 3.6108904
+Epoch: 14500 Cost: 3.5058331
+Epoch: 15000 Cost: 3.40671
+Epoch: 15500 Cost: 3.3130322
+Epoch: 16000 Cost: 3.2243633
+Epoch: 16500 Cost: 3.14031
+Epoch: 17000 Cost: 3.0605211
+Epoch: 17500 Cost: 2.9846811
+Epoch: 18000 Cost: 2.912505
+Epoch: 18500 Cost: 2.843729
+Epoch: 19000 Cost: 2.7781234
+Epoch: 19500 Cost: 2.7154691
+Epoch: 20000 Cost: 2.6555772
+Epoch: 20500 Cost: 2.5982654
+Epoch: 21000 Cost: 2.54337
+Epoch: 21500 Cost: 2.490745
+Epoch: 22000 Cost: 2.4402475
+Epoch: 22500 Cost: 2.391755
+Epoch: 23000 Cost: 2.3451486
+Epoch: 23500 Cost: 2.3003252
+Epoch: 24000 Cost: 2.2571778
+Epoch: 24500 Cost: 2.215613
+Epoch: 25000 Cost: 2.1755567
+Epoch: 25500 Cost: 2.1369164
+Epoch: 26000 Cost: 2.0996242
+Epoch: 26500 Cost: 2.0636098
+Epoch: 27000 Cost: 2.0288103
+Epoch: 27500 Cost: 1.9951627
+Epoch: 28000 Cost: 1.9626081
+Epoch: 28500 Cost: 1.9311045
+Epoch: 29000 Cost: 1.9005849
+Epoch: 29500 Cost: 1.8710244
+Epoch: 30000 Cost: 1.8423609
+Epoch: 30500 Cost: 1.8145692
+Epoch: 31000 Cost: 1.787597
+Epoch: 31500 Cost: 1.7614126
+Epoch: 32000 Cost: 1.735992
+Epoch: 32500 Cost: 1.711289
+Epoch: 33000 Cost: 1.6872826
+Epoch: 33500 Cost: 1.6639339
+Epoch: 34000 Cost: 1.6412287
+Epoch: 34500 Cost: 1.6191291
+Epoch: 35000 Cost: 1.5976175
+Epoch: 35500 Cost: 1.5766721
+Epoch: 36000 Cost: 1.5562699
+Epoch: 36500 Cost: 1.5363865
+Epoch: 37000 Cost: 1.5170053
+Epoch: 37500 Cost: 1.4981055
+Epoch: 38000 Cost: 1.4796712
+Epoch: 38500 Cost: 1.4616828
+Epoch: 39000 Cost: 1.4441302
+Epoch: 39500 Cost: 1.4269916
+Epoch: 40000 Cost: 1.410256
+Epoch: 40500 Cost: 1.3939071
+Epoch: 41000 Cost: 1.3779349
+Epoch: 41500 Cost: 1.3623288
+Epoch: 42000 Cost: 1.3470664
+Epoch: 42500 Cost: 1.3321418
+Epoch: 43000 Cost: 1.3175502
+Epoch: 43500 Cost: 1.3032744
+Epoch: 44000 Cost: 1.2892942
+Epoch: 44500 Cost: 1.2756245
+Epoch: 45000 Cost: 1.262233
+Epoch: 45500 Cost: 1.2491162
+Epoch: 46000 Cost: 1.2362821
+Epoch: 46500 Cost: 1.2237034
+Epoch: 47000 Cost: 1.2113721
+Epoch: 47500 Cost: 1.1992983
+Epoch: 48000 Cost: 1.1874585
+Epoch: 48500 Cost: 1.1758538
+Epoch: 49000 Cost: 1.1644692
+Epoch: 49500 Cost: 1.1532974
+Epoch: 49999 Cost: 1.1423708
+W: [[-3.0971944   3.0967875 ]
+ [-1.6159004   1.6167395 ]
+ [-2.8008103   2.8024492 ]
+ [-1.6976708   1.6965626 ]
+ [-2.694195    2.6953251 ]
+ [ 0.6501899  -0.6482958 ]
+ [-1.8325157   1.8323183 ]
+ [ 1.0523776  -1.0507754 ]
+ [-5.682672    5.6830335 ]
+ [-1.0651486   1.0646948 ]
+ [ 2.815558   -2.8173876 ]
+ [-3.0306258   3.0316615 ]
+ [-5.035642    5.034147  ]
+ [-0.38627356  0.3873706 ]
+ [ 1.0472115  -1.0452976 ]
+ [ 1.5287714  -1.5299981 ]
+ [ 0.50387526 -0.50410104]
+ [ 2.408131   -2.4055982 ]
+ [-5.395679    5.3945785 ]
+ [ 2.0619628  -2.0614853 ]
+ [ 3.8274605  -3.8284836 ]
+ [-1.3616222   1.3619876 ]
+ [ 1.4858416  -1.485656  ]
+ [-1.426811    1.4262233 ]
+ [-0.6877201   0.6863141 ]
+ [-0.47511852  0.4749746 ]
+ [ 0.77569383 -0.777396  ]
+ [ 1.4421036  -1.4428736 ]
+ [-2.5790207   2.5824652 ]
+ [-2.8193758   2.817944  ]
+ [-0.6863274   0.68689567]
+ [-2.8566923   2.855915  ]
+ [-0.06537879  0.0655885 ]
+ [ 2.0859604  -2.0852115 ]
+ [ 0.6264519  -0.6260464 ]
+ [-0.41035402  0.41006374]
+ [ 0.1140371  -0.11598679]
+ [-1.9634465   1.9636304 ]
+ [-0.20149547  0.201239  ]
+ [-1.2355905   1.2328173 ]
+ [-2.268165    2.269375  ]
+ [ 0.9601819  -0.9572635 ]
+ [-0.743039    0.74381953]
+ [ 2.516837   -2.5170333 ]
+ [-0.38728166  0.38587162]
+ [-2.2933543   2.2935603 ]
+ [ 1.391958   -1.3919898 ]
+ [ 2.4565723  -2.4558587 ]
+ [ 3.5254302  -3.524799  ]
+ [ 4.6451845  -4.6444798 ]
+ [-2.6556027   2.6548173 ]
+ [-2.7473984   2.745414  ]
+ [ 3.7719517  -3.7721884 ]
+ [-1.5896118   1.5903859 ]
+ [-3.191488    3.1909652 ]
+ [ 0.7055521  -0.7077861 ]
+ [ 1.585166   -1.5833719 ]
+ [ 3.2219045  -3.2229655 ]], b: [ 6.9786716 -6.9793973]
+
+Finished Running
+
+	Running Details:
+		Number of Epochs Set To : 50000
+		Number of Bins Set To : 2
+		Size of Bin Per Epoch : 300
+		Total Training Cycles : 100000
+		Learning Rate Set To : 0.001
+		Total Training Time : 0:01:20.876738
+
+	Costs:
+		First Recorded Cost : 24.14710235595703
+		Last Recorded Cost : 1.1423708200454712
+		Average Cost : 3.577238451242447
+		Lowest Recorded Cost : 1.1423708200454712
+		Highest Recorded Cost : 24.14710235595703
+
+	Accuracy:
+		Final Accuracy: 90.70422649383545 %
+
+Confusion Matrix:
+[[149  19]
+ [ 14 173]]
+2020-12-16 19:06:52.189714: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-16 19:06:52.189740: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /usr/local/lib/python3.8/dist-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2020-12-16 19:06:53.755144: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-16 19:06:53.755165: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-16 19:06:53.755180: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (Cyberlab-No5-GigaByte): /proc/driver/nvidia/version does not exist
+2020-12-16 19:06:53.755346: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-16 19:06:53.780386: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3500010000 Hz
+2020-12-16 19:06:53.781181: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5b3c930 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-16 19:06:53.781204: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch: 500 Cost: 34.247147
+Epoch: 1000 Cost: 28.616848
+Epoch: 1500 Cost: 25.844074
+Epoch: 2000 Cost: 24.080214
+Epoch: 2500 Cost: 22.821598
+Epoch: 3000 Cost: 21.860935
+Epoch: 3500 Cost: 21.09414
+Epoch: 4000 Cost: 20.462143
+Epoch: 4500 Cost: 19.928474
+Epoch: 5000 Cost: 19.469181
+Epoch: 5500 Cost: 19.067753
+Epoch: 6000 Cost: 18.71241
+Epoch: 6500 Cost: 18.394463
+Epoch: 7000 Cost: 18.107357
+Epoch: 7500 Cost: 17.846035
+Epoch: 8000 Cost: 17.606525
+Epoch: 8500 Cost: 17.385662
+Epoch: 9000 Cost: 17.180878
+Epoch: 9500 Cost: 16.990088
+Epoch: 10000 Cost: 16.811552
+Epoch: 10500 Cost: 16.643827
+Epoch: 11000 Cost: 16.485695
+Epoch: 11500 Cost: 16.33612
+Epoch: 12000 Cost: 16.194216
+Epoch: 12500 Cost: 16.059227
+Epoch: 13000 Cost: 15.930487
+Epoch: 13500 Cost: 15.807428
+Epoch: 14000 Cost: 15.68955
+Epoch: 14500 Cost: 15.576405
+Epoch: 15000 Cost: 15.467617
+Epoch: 15500 Cost: 15.362828
+Epoch: 16000 Cost: 15.261738
+Epoch: 16500 Cost: 15.16407
+Epoch: 17000 Cost: 15.069576
+Epoch: 17500 Cost: 14.978037
+Epoch: 18000 Cost: 14.889257
+Epoch: 18500 Cost: 14.803055
+Epoch: 19000 Cost: 14.719263
+Epoch: 19500 Cost: 14.637739
+Epoch: 20000 Cost: 14.558342
+Epoch: 20500 Cost: 14.480949
+Epoch: 21000 Cost: 14.405453
+Epoch: 21500 Cost: 14.331749
+Epoch: 22000 Cost: 14.259738
+Epoch: 22500 Cost: 14.189337
+Epoch: 23000 Cost: 14.120457
+Epoch: 23500 Cost: 14.053029
+Epoch: 24000 Cost: 13.986982
+Epoch: 24500 Cost: 13.9222555
+Epoch: 25000 Cost: 13.858788
+Epoch: 25500 Cost: 13.796516
+Epoch: 26000 Cost: 13.735404
+Epoch: 26500 Cost: 13.675387
+Epoch: 27000 Cost: 13.616428
+Epoch: 27500 Cost: 13.558485
+Epoch: 28000 Cost: 13.501516
+Epoch: 28500 Cost: 13.445481
+Epoch: 29000 Cost: 13.390356
+Epoch: 29500 Cost: 13.3361
+Epoch: 30000 Cost: 13.282674
+Epoch: 30500 Cost: 13.2300625
+Epoch: 31000 Cost: 13.178226
+Epoch: 31500 Cost: 13.127161
+Epoch: 32000 Cost: 13.076809
+Epoch: 32500 Cost: 13.027174
+Epoch: 33000 Cost: 12.978226
+Epoch: 33500 Cost: 12.929928
+Epoch: 34000 Cost: 12.882281
+Epoch: 34500 Cost: 12.835253
+Epoch: 35000 Cost: 12.788841
+Epoch: 35500 Cost: 12.743004
+Epoch: 36000 Cost: 12.697744
+Epoch: 36500 Cost: 12.653046
+Epoch: 37000 Cost: 12.608879
+Epoch: 37500 Cost: 12.565246
+Epoch: 38000 Cost: 12.522102
+Epoch: 38500 Cost: 12.479488
+Epoch: 39000 Cost: 12.4373455
+Epoch: 39500 Cost: 12.395675
+Epoch: 40000 Cost: 12.354464
+Epoch: 40500 Cost: 12.3137
+Epoch: 41000 Cost: 12.273386
+Epoch: 41500 Cost: 12.233479
+Epoch: 42000 Cost: 12.194012
+Epoch: 42500 Cost: 12.154936
+Epoch: 43000 Cost: 12.11628
+Epoch: 43500 Cost: 12.078009
+Epoch: 44000 Cost: 12.040117
+Epoch: 44500 Cost: 12.002602
+Epoch: 45000 Cost: 11.965443
+Epoch: 45500 Cost: 11.928652
+Epoch: 46000 Cost: 11.892218
+Epoch: 46500 Cost: 11.856115
+Epoch: 47000 Cost: 11.820351
+Epoch: 47500 Cost: 11.784912
+Epoch: 48000 Cost: 11.749788
+Epoch: 48500 Cost: 11.715006
+Epoch: 49000 Cost: 11.680506
+Epoch: 49500 Cost: 11.646302
+Epoch: 49999 Cost: 11.61249
+W: [[ 0.36564904 -0.365051  ]
+ [-0.69286597  0.6933571 ]
+ [-0.9401389   0.939459  ]
+ [-1.8482494   1.8507224 ]
+ [-4.792776    4.792531  ]
+ [-2.4217567   2.4190288 ]
+ [-0.5809907   0.5827848 ]
+ [-1.5890521   1.5891647 ]
+ [-2.3616633   2.3598623 ]
+ [-2.0443702   2.0417595 ]
+ [-0.19082505  0.19160885]
+ [-1.6335531   1.6342834 ]
+ [-2.7662225   2.7679324 ]
+ [ 3.238451   -3.23954   ]
+ [ 2.215643   -2.216545  ]
+ [ 0.5290061  -0.52996415]
+ [-3.6775348   3.6797066 ]
+ [ 1.4755021  -1.4767966 ]
+ [-3.605886    3.6042922 ]
+ [ 3.3285267  -3.3271158 ]
+ [ 0.78417075 -0.78380644]
+ [-0.5715013   0.57051885]
+ [-1.037398    1.0377874 ]
+ [ 2.3511126  -2.3513682 ]
+ [-1.3038194   1.3057771 ]
+ [ 4.3345547  -4.332724  ]
+ [ 1.1728364  -1.1760337 ]
+ [-1.4798121   1.4794304 ]
+ [-1.0518936   1.0510472 ]
+ [-3.6658711   3.6700752 ]
+ [ 2.8774338  -2.8768382 ]
+ [-4.3393316   4.337522  ]
+ [-2.0463758   2.0445442 ]
+ [ 4.288191   -4.287114  ]
+ [ 3.5120573  -3.513137  ]
+ [-0.82100993  0.8215058 ]
+ [ 0.8769465  -0.87761825]
+ [-1.1500195   1.1509943 ]
+ [-2.176309    2.17534   ]
+ [-1.5617297   1.5633832 ]
+ [-0.40561897  0.4050995 ]
+ [ 0.8841334  -0.88563967]
+ [-1.3179616   1.3
