@@ -1,0 +1,130 @@
+First Place:
+
+5.
+Finished Running
+
+Running Details:
+	Number of Epochs Set To : 100000
+	Number of Bins Set To : 2
+	Size of Bin Per Epoch : 300
+	Total Training Cycles : 100001
+	Learning Rate Set To : 0.0001
+	Total Training Time : 0:03:34.155412
+
+Costs:
+	First Recorded Cost : 206.441650390625
+	Last Recorded Cost : 1.5843850374221802
+	Average Cost : 29.61275385732028
+	Lowest Recorded Cost : 1.5843850374221802
+	Highest Recorded Cost : 206.44166564941406
+
+Accuracy:
+	Final Accuracy: 91.83098673820496 %
+
+Confusion Matrix:
+[[153  18]
+ [ 11 173]]
+
+66.
+
+Finished Running
+
+Running Details:
+	Number of Epochs Set To : 100000
+	Number of Bins Set To : 2
+	Size of Bin Per Epoch : 300
+	Total Training Cycles : 100001
+	Learning Rate Set To : 0.0001
+	Total Training Time : 0:03:34.200359
+
+Costs:
+	First Recorded Cost : 207.40382385253906
+	Last Recorded Cost : 1.5029810667037964
+	Average Cost : 32.047600214205794
+	Lowest Recorded Cost : 1.5029810667037964
+	Highest Recorded Cost : 207.40383911132812
+
+Accuracy:
+	Final Accuracy: 91.83098673820496 %
+
+Confusion Matrix:
+[[147  16]
+ [ 13 179]]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Second Place:
+8.
+Finished Running
+
+Running Details:
+	Number of Epochs Set To : 100000
+	Number of Bins Set To : 2
+	Size of Bin Per Epoch : 300
+	Total Training Cycles : 100001
+	Learning Rate Set To : 0.0001
+	Total Training Time : 0:03:38.646047
+
+Costs:
+	First Recorded Cost : 207.40383911132812
+	Last Recorded Cost : 0.02132987603545189
+	Average Cost : 27.769451165150606
+	Lowest Recorded Cost : 0.02132987603545189
+	Highest Recorded Cost : 207.40383911132812
+
+Accuracy:
+	Final Accuracy: 88.16901445388794 %
+
+Confusion Matrix:
+[[154  20]
+ [ 22 159]]
+
+55.
+Finished Running
+
+Running Details:
+	Number of Epochs Set To : 100000
+	Number of Bins Set To : 2
+	Size of Bin Per Epoch : 300
+	Total Training Cycles : 100001
+	Learning Rate Set To : 0.0001
+	Total Training Time : 0:03:35.873006
+
+Costs:
+	First Recorded Cost : 206.2342529296875
+	Last Recorded Cost : 0.013491683639585972
+	Average Cost : 28.51377905998379
+	Lowest Recorded Cost : 0.013491683639585972
+	Highest Recorded Cost : 206.2342529296875
+
+Accuracy:
+	Final Accuracy: 91.54929518699646 %
+
+Confusion Matrix:
+[[149  14]
+ [ 16 176]]
+
+
+99.
+Finished Running
+
+Running Details:
+	Number of Epochs Set To : 100000
+	Number of Bins Set To : 2
+	Size of Bin Per Epoch : 300
+	Total Training Cycles : 100001
+	Learning Rate Set To : 0.0001
+	Total Training Time : 0:03:35.249437
+
+Costs:
+	First Recorded Cost : 206.81607055664062
+	Last Recorded Cost : 0.012650781311094761
+	Average Cost : 30.853881252063765
+	Lowest Recorded Cost : 0.012650781311094761
+	Highest Recorded Cost : 206.81610107421875
+
+Accuracy:
+	Final Accuracy: 91.54929518699646 %
+
+Confusion Matrix:
+[[145  18]
+ [ 12 180]]
