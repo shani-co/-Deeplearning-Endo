@@ -85,25 +85,24 @@ wanted_columns= ['Heavy / Extreme menstrual bleeding',
 
 
 
-def shuffle_df(raw_data):
+def shuffle_df(raw_data):  #shuffle the data frac=1 means we use 100% drop=true to drop the index column.
     return raw_data.sample(frac=1).reset_index(drop=True)
 
 
 def get_features_and_labels(data):
-    dataset_labels = data.loc[:,'label']
-    dataset_features = data.drop(columns=['label'])
+    dataset_labels = data.loc[:,'label'] # here we take all the rows in the column is named "label".
+    dataset_features = data.drop(columns=['label']) # here we take all the symptoms except the labales.
     return dataset_features, dataset_labels
 
 
 def get_shuffled_divided_data(raw_data):
     data = shuffle_df(raw_data)
-    #data = fit_labels(data)
     df, labels = get_features_and_labels(data)
-    TRAIN_SIZE = int(len(data) * 0.6)
+    TRAIN_SIZE = int(len(data) * 0.6) # we take 60% of the data for training set.
     train_df = df[:TRAIN_SIZE]
     train_labels = labels[:TRAIN_SIZE]
 
-    test_df = df[TRAIN_SIZE:]
+    test_df = df[TRAIN_SIZE:] #  the rest of the data for test set.
     test_labels = labels[TRAIN_SIZE:]
 
     return train_df, train_labels, test_df, test_labels
@@ -132,22 +131,22 @@ def main():
     B3 = tf.Variable(0.001 * np.random.randn(constants['labels']).astype(np.float32))
     ###################################################################################################################
 
-    Y_ = tf.nn.softmax(tf.add(tf.matmul(Z2, W3), B3))
+    Y_ = tf.nn.softmax(tf.add(tf.matmul(Z2, W3), B3)) # softmax between the predictions.
 
-    cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(tf.clip_by_value(Y_, 1e-10, 1.0))))
+    cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(tf.clip_by_value(Y_, 1e-10, 1.0)))) #loss function. clip_by_value turns every number bigger then 1 to 1.
 
-    optimizer = tf.train.GradientDescentOptimizer(learning_rate=constants['alpha']).minimize(cost)
+    optimizer = tf.train.GradientDescentOptimizer(learning_rate=constants['alpha']).minimize(cost) # a step in the opposent direction of the Gradient.
 
-    init = tf.global_variables_initializer()
+    init = tf.global_variables_initializer()  # initialize variables.
 
-    # calculate bin size for training
-    constants['bins'] = int(x_o_train.shape[0] / constants['bin_size'])
+    # calculate bin size for training   
+    constants['bins'] = int(x_o_train.shape[0] / constants['bin_size']) # divid the train dataset to bins of 300.
 
-    training_start_time = dt.now()
+    training_start_time = dt.now() # start the timer for the training.
 
     # start tensor session
     with tf.Session() as sess:
-        y_o_train = sess.run(tf.one_hot(y_o_train, constants['labels']))
+        y_o_train = sess.run(tf.one_hot(y_o_train, constants['labels'])) # one_hot encoding means that matrix filled with 1 and 0.
         y_o_test = sess.run(tf.one_hot(y_o_test, constants['labels']))
 
         sess.run(init)
@@ -174,9 +173,9 @@ def main():
         training_end_time = dt.now()
 
         # model testing
-        correct_prediction = tf.equal(tf.argmax(Y_, 1), tf.argmax(Y, 1))
-        accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-        acc = accuracy.eval({X: x_o_test, Y: y_o_test}) * 100
+        correct_prediction = tf.equal(tf.argmax(Y_, 1), tf.argmax(Y, 1)) # compare the prediction vs the real label.
+        accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32)) 
+        acc = accuracy.eval({X: x_o_test, Y: y_o_test}) * 100 #calculate the accuracy.
 
         # ready the stat output
         first_cost = cost_hist[0]
@@ -215,13 +214,13 @@ def main():
         # confusion matrix
         conf_mat = tf.confusion_matrix(labels=tf.argmax(Y, 1), predictions=tf.argmax(Y_, 1), num_classes=2)
         conf_mat_to_print = sess.run(conf_mat, feed_dict={X: x_o_test, Y: y_o_test})
-        recall = str((conf_mat_to_print[0,0] /(conf_mat_to_print[0,0]+conf_mat_to_print[0,1]))*100)
-        precision = str((conf_mat_to_print[0,0] /(conf_mat_to_print[0,0]+conf_mat_to_print[1,0]))*100)
+        recall = str((conf_mat_to_print[0,0] /(conf_mat_to_print[0,0]+conf_mat_to_print[0,1]))*100) # calculate recall
+        precision = str((conf_mat_to_print[0,0] /(conf_mat_to_print[0,0]+conf_mat_to_print[1,0]))*100)# calculate presicion.
         print("Final Recall:"+recall+"%\n")
         print("Final Precision:"+precision+"%\n")
         print(conf_mat_to_print)
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
 
     main()
