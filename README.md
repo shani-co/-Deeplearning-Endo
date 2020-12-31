@@ -3,6 +3,7 @@
 Project in  Deep learning- Endometriosis
 
 
-A system of neurons that enables the identification of patients with endometriosis
+A model of neurons that enables the identification of patients with endometriosis
+
 
 
