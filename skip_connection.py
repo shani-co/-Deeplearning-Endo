@@ -12,11 +12,11 @@ import pandas
 from datetime import datetime as dt
 
 constants = {
-    'alpha': 0.000001,
+    'alpha': 0.000005,
     'epochs': 100000,
     'features': 58,
     'labels': 2,
-    'bin_size': 285,
+    'bin_size': 500,
     'bins': None,
     'hidden1_size':58,
     'hidden2_size':58,
@@ -99,7 +99,7 @@ def get_shuffled_divided_data(raw_data):
     data = shuffle_df(raw_data)
     #data = fit_labels(data)
     df, labels = get_features_and_labels(data)
-    TRAIN_SIZE = int(len(data) * 0.6)
+    TRAIN_SIZE = int(len(data) * 0.7)
     train_df = df[:TRAIN_SIZE]
     train_labels = labels[:TRAIN_SIZE]
     test_df = df[TRAIN_SIZE:]
