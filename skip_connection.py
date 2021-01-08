@@ -12,11 +12,11 @@ import pandas
 from datetime import datetime as dt
 
 constants = {
-    'alpha': 0.001,
-    'epochs': 50000,
+    'alpha': 0.000001,
+    'epochs': 100000,
     'features': 58,
     'labels': 2,
-    'bin_size': 300,
+    'bin_size': 285,
     'bins': None,
     'hidden1_size':58,
     'hidden2_size':58,
@@ -108,7 +108,7 @@ def get_shuffled_divided_data(raw_data):
 
 
 def main():
-    data_path = join("C:/Users/naord/Documents/GitHub/-Deeplearning-Endo/",'Dataset .xlsx') # /home/cyberlab/Desktop/Shani's_ML/Deeplearning-Endo
+    data_path = join("C:/Users/שני כהן/PycharmProjects/-Deeplearning-Endo",'Dataset .xlsx') # /home/cyberlab/Desktop/Shani's_ML/Deeplearning-Endo
     raw_data = pandas.read_excel(data_path)
     raw_data = raw_data[wanted_columns]
     x_o_train, y_o_train, x_o_test, y_o_test = get_shuffled_divided_data(raw_data)
@@ -183,6 +183,9 @@ def main():
         training_time = training_end_time - training_start_time
 
         print('Finished Running\n')
+
+        print('\rW: {}, b: {}\n'.format(W3.eval(sess), B3.eval(sess)))
+
         print('Running Details:\n'
               '\tNumber of Epochs Set To : {}\n'.format(constants['epochs']) +
               '\tNumber of Bins Set To : {}\n'.format(constants['bins'] + 1) +
@@ -203,8 +206,6 @@ def main():
         print('Accuracy:\n'
               '\tFinal Accuracy: {} %\n'.format(acc)
               )
-
-        print('\rW: {}, b: {}\n'.format(W3.eval(sess), B3.eval(sess)))
 
         print('Confusion Matrix:')
 
