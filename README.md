@@ -1,6 +1,6 @@
 # -Deeplearning-Endo
 
-## Project in  Deep learning- Endometriosis
+###### Project in  Deep learning- Endometriosis
 
 In this project we present a predictive model for women with endometriosis
 
@@ -18,3 +18,6 @@ We defined two type of women in this Dataset. Half sick in endometriosis and Hal
 
 We ran the three models on the same Dataset. We got a different results in each model and faced with different problems any time.
 Therefore, there are conclusions for each model.
+
+
+In conclusion:
