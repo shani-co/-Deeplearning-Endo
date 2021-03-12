@@ -20,4 +20,3 @@ We ran the three models on the same Dataset. We got a different results in each 
 Therefore, there are conclusions for each model.
 
 
-In conclusion:
